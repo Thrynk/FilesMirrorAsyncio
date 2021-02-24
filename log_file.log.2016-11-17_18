@@ -1,0 +1,1101 @@
+2016-11-17 13:39:45,855 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 13:39:45,918 - root - INFO - logger : 20 - Folder created : test/123
+2016-11-17 13:44:46,552 - root - INFO - logger : 20 - Folder created : test/123\Nouveau dossier
+2016-11-17 13:44:50,568 - root - INFO - logger : 20 - Folder created : test/123\A
+2016-11-17 13:44:50,568 - root - INFO - logger : 20 - Folder removed : test/123\Nouveau dossier
+2016-11-17 13:45:25,750 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 13:52:12,017 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 13:52:12,017 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 13:52:12,017 - root - INFO - directory_manager : 30 - ['test']
+2016-11-17 13:56:51,777 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 13:56:51,793 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 13:56:51,793 - root - INFO - directory_manager : 31 - test/123
+2016-11-17 13:56:51,793 - root - INFO - directory_manager : 32 - ['test']
+2016-11-17 13:57:17,701 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 13:57:17,701 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 13:57:17,717 - root - INFO - directory_manager : 31 - 123
+2016-11-17 13:57:17,717 - root - INFO - directory_manager : 32 - ['test']
+2016-11-17 13:58:00,169 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 13:58:00,171 - root - INFO - directory_manager : 29 - test
+2016-11-17 13:58:00,171 - root - INFO - directory_manager : 31 - test
+2016-11-17 13:58:00,171 - root - INFO - directory_manager : 32 - ['test']
+2016-11-17 13:58:00,171 - root - INFO - logger : 20 - Folder created : test\A
+2016-11-17 13:58:51,190 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 13:58:51,190 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 14:01:06,041 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:01:06,041 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 14:01:06,041 - root - INFO - directory_manager : 31 - test
+2016-11-17 14:01:17,491 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:01:17,491 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 14:01:17,491 - root - INFO - directory_manager : 31 - test
+2016-11-17 14:01:52,797 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:01:52,821 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 14:01:52,821 - root - INFO - directory_manager : 31 - test
+2016-11-17 14:01:52,824 - root - INFO - directory_manager : 32 - ['test/123', 'test/A']
+2016-11-17 14:03:30,148 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:03:30,148 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 14:03:30,148 - root - INFO - directory_manager : 31 - test
+2016-11-17 14:03:30,148 - root - INFO - directory_manager : 32 - ['test/123', 'test/A']
+2016-11-17 14:04:29,343 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:04:29,358 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 14:04:29,358 - root - INFO - directory_manager : 31 - test
+2016-11-17 14:04:29,358 - root - INFO - directory_manager : 32 - ['test/123', 'test/A']
+2016-11-17 14:05:46,152 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:05:46,173 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 14:05:46,173 - root - INFO - directory_manager : 31 - test
+2016-11-17 14:05:46,174 - root - INFO - directory_manager : 32 - ['test/123', 'test/A']
+2016-11-17 14:06:12,399 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:06:12,415 - root - INFO - directory_manager : 29 - test/123
+2016-11-17 14:06:12,415 - root - INFO - directory_manager : 31 - test
+2016-11-17 14:06:12,415 - root - INFO - directory_manager : 32 - ['test/123', 'test/A']
+2016-11-17 14:08:26,723 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:08:46,920 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:09:04,468 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:09:10,032 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:09:33,792 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:09:33,807 - root - INFO - directory_manager : 76 - srv full path test/123\A
+2016-11-17 14:15:58,450 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:15:58,450 - root - INFO - directory_manager : 29 - \
+2016-11-17 14:15:58,450 - root - INFO - directory_manager : 77 - srv full path test/123\A
+2016-11-17 14:16:44,657 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:17:06,449 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:17:20,624 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:17:20,639 - root - INFO - directory_manager : 30 - test
+2016-11-17 14:17:37,438 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:17:37,454 - root - INFO - directory_manager : 30 - test\123
+2016-11-17 14:17:37,454 - root - INFO - directory_manager : 31 - test
+2016-11-17 14:18:17,869 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:20:05,775 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:20:46,936 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:20:46,952 - root - INFO - directory_manager : 76 - srv full path test\123\A
+2016-11-17 14:21:31,808 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:22:58,358 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:22:58,380 - root - INFO - logger : 20 - Folder created : test\123
+2016-11-17 14:24:26,570 - root - INFO - directory_manager : 76 - srv full path test\123\A
+2016-11-17 14:25:12,862 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:25:24,903 - root - INFO - directory_manager : 76 - srv full path test\123\A
+2016-11-17 14:27:44,680 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:27:44,680 - root - INFO - directory_manager : 76 - srv full path test\123\A
+2016-11-17 14:42:32,516 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:42:58,908 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:42:58,924 - root - INFO - logger : 20 - Folder created : test\123
+2016-11-17 14:43:10,947 - root - INFO - directory_manager : 74 - root ftp : test\123 path \A
+2016-11-17 14:43:10,994 - root - INFO - logger : 20 - Folder created : test\123\A
+2016-11-17 14:48:19,699 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:48:19,715 - root - INFO - logger : 20 - Folder created : test\123
+2016-11-17 14:48:31,774 - root - INFO - directory_manager : 74 - root ftp : test\123 path \A
+2016-11-17 14:48:31,774 - root - INFO - logger : 20 - Folder created : test\123\A
+2016-11-17 14:49:15,884 - root - INFO - directory_manager : 74 - root ftp : test\123 path \A\B
+2016-11-17 14:49:15,921 - root - INFO - logger : 20 - Folder created : test\123\A\B
+2016-11-17 14:49:30,847 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:50:01,998 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:50:02,013 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:50:49,659 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:50:49,675 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:51:25,489 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:51:25,504 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:52:35,938 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:52:35,954 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:54:01,189 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:54:01,189 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:54:17,558 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:54:17,573 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:54:17,578 - root - INFO - directory_manager : 76 - root ftp : test\123 path \A
+2016-11-17 14:54:41,332 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:54:41,348 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:54:41,348 - root - INFO - directory_manager : 76 - root ftp : test\123 path \A
+2016-11-17 14:54:58,653 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:54:58,653 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:54:58,668 - root - INFO - directory_manager : 76 - root ftp : test\123 path \A
+2016-11-17 14:55:33,840 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:55:33,857 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:55:33,861 - root - INFO - directory_manager : 76 - root ftp : test\123 path \A
+2016-11-17 14:56:12,310 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:56:12,326 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:56:12,326 - root - INFO - directory_manager : 76 - root ftp : test\123 path \A
+2016-11-17 14:56:34,651 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 14:56:34,667 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 14:56:34,667 - root - INFO - directory_manager : 76 - root ftp : test\123 path \A
+2016-11-17 15:03:24,902 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:03:24,917 - root - INFO - directory_manager : 29 - test\123
+2016-11-17 15:07:09,078 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:07:09,113 - root - INFO - logger : 20 - Folder created : test\123\A
+2016-11-17 15:07:29,189 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:07:33,198 - root - INFO - logger : 20 - Folder created : test\123\A\ALO
+2016-11-17 15:07:33,213 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:12:53,872 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:14:52,048 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:20:38,262 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:21:19,629 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:24:33,857 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:25:17,984 - root - INFO - directory_manager : 76 - \Nouveau dossier
+2016-11-17 15:25:17,984 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:25:21,992 - root - INFO - directory_manager : 76 - \ALO
+2016-11-17 15:25:21,992 - root - INFO - logger : 20 - Folder created : test\123\A\ALO
+2016-11-17 15:25:22,007 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:25:35,768 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:25:35,787 - root - INFO - directory_manager : 76 - \ALO
+2016-11-17 15:31:09,897 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:31:09,899 - root - INFO - directory_manager : 76 - \ALO
+2016-11-17 15:31:09,899 - root - INFO - directory_manager : 77 - test\123\A\ALO
+2016-11-17 15:33:19,546 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:33:19,558 - root - INFO - directory_manager : 76 - \ALO
+2016-11-17 15:33:19,558 - root - INFO - directory_manager : 77 - test\123\A\ALO
+2016-11-17 15:33:47,477 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:33:47,493 - root - INFO - directory_manager : 76 - \ALO
+2016-11-17 15:33:47,493 - root - INFO - directory_manager : 77 - test\123\A\ALO
+2016-11-17 15:33:59,538 - root - INFO - directory_manager : 76 - \ALED
+2016-11-17 15:33:59,538 - root - INFO - directory_manager : 77 - test\123\A\ALED
+2016-11-17 15:33:59,538 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:34:15,580 - root - INFO - directory_manager : 76 - \ALO\Nouveau dossier
+2016-11-17 15:34:15,581 - root - INFO - directory_manager : 77 - test\123\A\ALO\Nouveau dossier
+2016-11-17 15:34:15,588 - root - INFO - logger : 20 - Folder created : test\123\A\ALO\Nouveau dossier
+2016-11-17 15:34:19,592 - root - INFO - directory_manager : 76 - \ALO\hello
+2016-11-17 15:34:19,592 - root - INFO - directory_manager : 77 - test\123\A\ALO\hello
+2016-11-17 15:34:19,595 - root - INFO - logger : 20 - Folder created : test\123\A\ALO\hello
+2016-11-17 15:34:19,595 - root - INFO - logger : 20 - Folder removed : test\123\A\ALO\Nouveau dossier
+2016-11-17 15:34:56,143 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:34:56,156 - root - INFO - directory_manager : 76 - \ALED
+2016-11-17 15:34:56,156 - root - INFO - directory_manager : 77 - test\123\A\ALED
+2016-11-17 15:34:56,158 - root - INFO - directory_manager : 76 - \ALO
+2016-11-17 15:34:56,158 - root - INFO - directory_manager : 77 - test\123\A\ALO
+2016-11-17 15:34:56,158 - root - INFO - directory_manager : 76 - \ALO\hello
+2016-11-17 15:34:56,158 - root - INFO - directory_manager : 77 - test\123\A\ALO\hello
+2016-11-17 15:36:22,957 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:36:35,012 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:36:47,050 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:36:55,114 - root - INFO - logger : 20 - File created / updated : Nouveau document texte.txt
+2016-11-17 15:36:59,173 - root - INFO - logger : 20 - File created / updated : aaaaa.txt
+2016-11-17 15:36:59,173 - root - INFO - logger : 20 - File removed : %stest\123\A\HELLO\Nouveau document texte.txt
+2016-11-17 15:37:11,212 - root - INFO - logger : 20 - File removed : %stest\123\A\HELLO\aaaaa.txt
+2016-11-17 15:37:27,298 - root - INFO - logger : 20 - File created / updated : aaaa.txt
+2016-11-17 15:37:31,312 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\pppp
+2016-11-17 15:37:39,332 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED
+2016-11-17 15:37:39,347 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED\pppp
+2016-11-17 15:37:39,400 - root - INFO - logger : 20 - File created / updated : aaaa.txt
+2016-11-17 15:37:39,400 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\pppp
+2016-11-17 15:37:39,400 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aaaa.txt
+2016-11-17 15:37:39,416 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:39:03,447 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:39:03,463 - root - INFO - logger : 20 - Folder created : test\123\A
+2016-11-17 15:39:15,508 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:39:19,517 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\Nouveau dossier
+2016-11-17 15:39:23,541 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\HELLO
+2016-11-17 15:39:23,547 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\Nouveau dossier
+2016-11-17 15:39:27,590 - root - INFO - logger : 20 - File created / updated : Nouveau document texte.txt
+2016-11-17 15:39:31,647 - root - INFO - logger : 20 - File created / updated : aa.txt
+2016-11-17 15:39:31,654 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\HELLO\Nouveau document texte.txt
+2016-11-17 15:39:39,669 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\HELLO\aa.txt
+2016-11-17 15:39:39,675 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\HELLO
+2016-11-17 15:39:39,681 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:40:03,743 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:40:07,748 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:40:07,763 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:40:11,796 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:40:19,869 - root - INFO - logger : 20 - File created / updated : pp.txt
+2016-11-17 15:40:23,882 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\aa
+2016-11-17 15:40:27,884 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\aa
+2016-11-17 15:40:27,884 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\pp.txt
+2016-11-17 15:40:27,899 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:40:39,926 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:40:43,943 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:40:43,958 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:40:48,000 - root - INFO - logger : 20 - File created / updated : aa.txt
+2016-11-17 15:40:52,017 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED
+2016-11-17 15:40:52,070 - root - INFO - logger : 20 - File created / updated : aa.txt
+2016-11-17 15:40:52,085 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aa.txt
+2016-11-17 15:40:52,085 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:42:38,946 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:42:46,985 - root - INFO - logger : 20 - Folder created : test\123\A\A
+2016-11-17 15:42:55,014 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\A
+2016-11-17 15:42:55,014 - root - INFO - logger : 20 - Folder removed : test\123\A\A
+2016-11-17 15:42:59,031 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:43:03,044 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:43:03,044 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 15:43:03,044 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:43:07,063 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:43:15,085 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\HELLO
+2016-11-17 15:43:15,085 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 15:43:15,085 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO
+2016-11-17 15:43:51,151 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 15:43:51,151 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED\HELLO
+2016-11-17 15:43:51,151 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\HELLO
+2016-11-17 15:43:51,166 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:44:39,262 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:44:43,282 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:44:43,282 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 15:44:43,282 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:44:47,294 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:44:59,332 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\PPP
+2016-11-17 15:45:03,341 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED
+2016-11-17 15:45:03,341 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED\PPP
+2016-11-17 15:45:03,341 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 15:45:03,341 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED\PPP
+2016-11-17 15:45:03,356 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\PPP
+2016-11-17 15:45:03,356 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:45:27,438 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO\ALED\PPP
+2016-11-17 15:45:27,438 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO\ALED\PPP
+2016-11-17 15:45:27,438 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 15:45:27,438 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO\ALED
+2016-11-17 15:45:27,453 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO\ALED
+2016-11-17 15:45:27,453 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO
+2016-11-17 15:45:39,479 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:45:43,493 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:45:47,503 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:45:47,504 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 15:45:47,508 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:45:51,514 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\pp
+2016-11-17 15:45:55,559 - root - INFO - logger : 20 - File created / updated : aa.txt
+2016-11-17 15:45:59,560 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\HELLO
+2016-11-17 15:45:59,576 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\HELLO\pp
+2016-11-17 15:45:59,614 - root - INFO - logger : 20 - File created / updated : aa.txt
+2016-11-17 15:45:59,614 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO\pp
+2016-11-17 15:45:59,630 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO\pp
+2016-11-17 15:45:59,630 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 15:45:59,630 - root - INFO - logger : 20 - File removed : %stest\123\A\HELLO\aa.txt
+2016-11-17 15:45:59,645 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO
+2016-11-17 15:46:39,747 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED\HELLO\pp
+2016-11-17 15:46:39,747 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\HELLO\pp
+2016-11-17 15:46:39,747 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 15:47:24,618 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:47:32,651 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:47:36,950 - root - INFO - logger : 20 - File created / updated : aa.txt
+2016-11-17 15:47:40,962 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:47:44,971 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:47:44,971 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 15:47:44,971 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:47:52,992 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED
+2016-11-17 15:47:53,039 - root - INFO - logger : 20 - File created / updated : aa.txt
+2016-11-17 15:47:53,039 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aa.txt
+2016-11-17 15:47:53,039 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 15:47:53,055 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:48:33,157 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 15:50:08,536 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:50:16,596 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:50:20,614 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:50:24,690 - root - INFO - logger : 20 - File created / updated : D:\Cours\Tests\ALED\Nouveau document texte.txt
+2016-11-17 15:50:28,733 - root - INFO - logger : 20 - File created / updated : D:\Cours\Tests\ALED\aaaa.txt
+2016-11-17 15:50:28,749 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\Nouveau document texte.txt
+2016-11-17 15:50:44,783 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED
+2016-11-17 15:50:44,846 - root - INFO - logger : 20 - File created / updated : D:\Cours\Tests\HELLO\ALED\aaaa.txt
+2016-11-17 15:50:44,846 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aaaa.txt
+2016-11-17 15:50:44,846 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 15:50:44,846 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:54:17,831 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:54:25,853 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:54:29,863 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:55:12,021 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:55:20,061 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:55:24,076 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:55:28,158 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\aaa.txt file aaa.txt
+2016-11-17 15:55:52,238 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED
+2016-11-17 15:55:52,453 - root - INFO - logger : 20 - File created / updated : srv test\123\A\HELLO\ALED\aaa.txt file aaa.txt
+2016-11-17 15:55:52,453 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 15:55:52,453 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aaa.txt
+2016-11-17 15:55:52,469 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:56:36,583 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO\ALED
+2016-11-17 15:56:36,583 - root - INFO - logger : 20 - File removed : %stest\123\A\HELLO\ALED\aaa.txt
+2016-11-17 15:56:36,599 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO\ALED
+2016-11-17 15:56:36,599 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 15:56:36,604 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO
+2016-11-17 15:57:00,668 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:57:04,680 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:57:04,680 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 15:57:04,680 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:57:08,749 - root - INFO - logger : 20 - File created / updated : srv test\123\A\HELLO\pppp.txt file pppp.txt
+2016-11-17 15:57:12,764 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:57:16,779 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:57:16,779 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 15:57:16,794 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:57:28,823 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\HELLO
+2016-11-17 15:57:28,876 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\HELLO\pppp.txt file pppp.txt
+2016-11-17 15:57:28,876 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 15:57:28,876 - root - INFO - logger : 20 - File removed : %stest\123\A\HELLO\pppp.txt
+2016-11-17 15:57:28,897 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO
+2016-11-17 15:57:44,956 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 15:59:12,218 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 15:59:16,226 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 15:59:20,268 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 15:59:20,268 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 15:59:20,270 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 15:59:24,287 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 15:59:28,341 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\aa.txt file aa.txt
+2016-11-17 15:59:40,374 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED
+2016-11-17 15:59:41,138 - root - INFO - logger : 20 - File created / updated : srv test\123\A\HELLO\ALED\aa.txt file aa.txt
+2016-11-17 15:59:41,153 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aa.txt
+2016-11-17 15:59:41,153 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 15:59:41,160 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 15:59:45,169 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO\ALED
+2016-11-17 15:59:45,189 - root - INFO - logger : 20 - File removed : %stest\123\A\HELLO\ALED\aa.txt
+2016-11-17 15:59:45,189 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO\ALED
+2016-11-17 15:59:45,189 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 15:59:45,205 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO
+2016-11-17 16:00:41,831 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:00:49,868 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 16:00:53,933 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:00:57,997 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\aaa.txt file aaa.txt
+2016-11-17 16:00:57,997 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\Nouveau document texte.txt
+2016-11-17 16:01:02,002 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 16:01:14,040 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\ALED
+2016-11-17 16:01:14,093 - root - INFO - logger : 20 - File created / updated : srv test\123\A\HELLO\ALED\aaa.txt file aaa.txt
+2016-11-17 16:01:14,108 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aaa.txt
+2016-11-17 16:01:14,108 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\ALED
+2016-11-17 16:01:14,108 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 16:01:50,202 - root - INFO - directory_manager : 144 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 16:01:50,202 - root - INFO - directory_manager : 168 - to delete test\123\A\HELLO\aaa.txt
+2016-11-17 16:08:25,416 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:08:33,461 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO
+2016-11-17 16:08:37,483 - root - INFO - logger : 20 - Folder created : test\123\A\AA
+2016-11-17 16:08:45,565 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AA\pp.txt file pp.txt
+2016-11-17 16:08:53,601 - root - INFO - logger : 20 - Folder created : test\123\A\HELLO\AA
+2016-11-17 16:08:53,663 - root - INFO - logger : 20 - File created / updated : srv test\123\A\HELLO\AA\pp.txt file pp.txt
+2016-11-17 16:08:53,663 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\AA
+2016-11-17 16:08:53,663 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\AA
+2016-11-17 16:08:53,663 - root - INFO - directory_manager : 169 - to delete test\123\A\AA\pp.txt
+2016-11-17 16:08:53,663 - root - INFO - logger : 20 - File removed : %stest\123\A\AA\pp.txt
+2016-11-17 16:08:53,682 - root - INFO - logger : 20 - Folder removed : test\123\A\AA
+2016-11-17 16:09:17,733 - root - INFO - logger : 20 - File removed : %stest\123\A\HELLO\AA\pp.txt
+2016-11-17 16:09:17,733 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\HELLO
+2016-11-17 16:09:17,733 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\HELLO
+2016-11-17 16:09:17,733 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\HELLO\AA
+2016-11-17 16:09:17,748 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO\AA
+2016-11-17 16:09:17,748 - root - INFO - logger : 20 - Folder removed : test\123\A\HELLO
+2016-11-17 16:10:37,966 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:10:42,004 - root - INFO - logger : 20 - Folder created : test\123\A\ALLO
+2016-11-17 16:10:46,013 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 16:10:46,013 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:10:46,013 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:10:46,029 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:10:58,113 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\test.txt file test.txt
+2016-11-17 16:11:10,128 - root - INFO - logger : 20 - Folder created : test\123\A\ALLO\ALED
+2016-11-17 16:11:10,181 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALLO\ALED\test.txt file test.txt
+2016-11-17 16:11:10,181 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\ALED
+2016-11-17 16:11:10,181 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\ALED
+2016-11-17 16:11:10,181 - root - INFO - directory_manager : 169 - to delete test\123\A\ALED\test.txt
+2016-11-17 16:11:10,197 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\test.txt
+2016-11-17 16:11:10,197 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 16:11:26,241 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\ALLO
+2016-11-17 16:11:26,241 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\ALLO
+2016-11-17 16:11:26,241 - root - INFO - directory_manager : 169 - to delete test\123\A\ALLO\test.txt
+2016-11-17 16:15:25,729 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:15:41,780 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:15:45,805 - root - INFO - logger : 20 - Folder created : test\123\A\allo
+2016-11-17 16:15:45,805 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:15:45,805 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:15:45,805 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:15:45,813 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:15:49,828 - root - INFO - logger : 20 - Folder created : test\123\A\ppp
+2016-11-17 16:16:05,928 - root - INFO - logger : 20 - File created / updated : srv test\123\A\allo\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:16:09,986 - root - INFO - logger : 20 - File created / updated : srv test\123\A\allo\mmmmm.txt file mmmmm.txt
+2016-11-17 16:16:09,986 - root - INFO - logger : 20 - File removed : %stest\123\A\allo\Nouveau document texte.txt
+2016-11-17 16:16:26,026 - root - INFO - logger : 20 - Folder created : test\123\A\ppp\allo
+2016-11-17 16:16:26,079 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ppp\allo\mmmmm.txt file mmmmm.txt
+2016-11-17 16:16:26,094 - root - INFO - logger : 20 - File removed : %stest\123\A\allo\mmmmm.txt
+2016-11-17 16:16:26,094 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\allo
+2016-11-17 16:16:26,094 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\allo
+2016-11-17 16:16:26,094 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:16:26,094 - root - INFO - logger : 20 - Folder removed : test\123\A\allo
+2016-11-17 16:16:34,141 - root - INFO - logger : 20 - File removed : %stest\123\A\ppp\allo\mmmmm.txt
+2016-11-17 16:16:34,141 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\ppp\allo
+2016-11-17 16:16:34,141 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\ppp\allo
+2016-11-17 16:16:34,141 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:16:34,142 - root - INFO - logger : 20 - Folder removed : test\123\A\ppp\allo
+2016-11-17 16:16:34,142 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\ppp
+2016-11-17 16:16:34,142 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\ppp
+2016-11-17 16:16:34,142 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:16:34,142 - root - INFO - logger : 20 - Folder removed : test\123\A\ppp
+2016-11-17 16:16:50,171 - root - INFO - logger : 20 - Folder created : test\123\A\nnnnn
+2016-11-17 16:16:58,185 - root - INFO - logger : 20 - Folder created : test\123\A\wwwww
+2016-11-17 16:17:06,257 - root - INFO - logger : 20 - File created / updated : srv test\123\A\wwwww\hhhhh.txt file hhhhh.txt
+2016-11-17 16:17:10,274 - root - INFO - logger : 20 - Folder created : test\123\A\nnnnn\wwwww
+2016-11-17 16:17:10,321 - root - INFO - logger : 20 - File created / updated : srv test\123\A\nnnnn\wwwww\hhhhh.txt file hhhhh.txt
+2016-11-17 16:17:10,321 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\wwwww
+2016-11-17 16:17:10,321 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\wwwww
+2016-11-17 16:17:10,321 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\wwwww\\hhhhh.txt']]
+2016-11-17 16:17:10,321 - root - INFO - directory_manager : 170 - to delete test\123\A\wwwww\hhhhh.txt
+2016-11-17 16:17:10,336 - root - INFO - logger : 20 - File removed : %stest\123\A\wwwww\hhhhh.txt
+2016-11-17 16:17:10,336 - root - INFO - logger : 20 - Folder removed : test\123\A\wwwww
+2016-11-17 16:19:34,668 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\nnnnn\wwwww
+2016-11-17 16:19:34,668 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\nnnnn\wwwww
+2016-11-17 16:19:34,668 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\nnnnn\\wwwww\\hhhhh.txt']]
+2016-11-17 16:19:34,668 - root - INFO - directory_manager : 170 - to delete test\123\A\nnnnn\wwwww\hhhhh.txt
+2016-11-17 16:19:34,668 - root - INFO - logger : 20 - File removed : %stest\123\A\nnnnn\wwwww\hhhhh.txt
+2016-11-17 16:19:34,668 - root - INFO - logger : 20 - Folder removed : test\123\A\nnnnn\wwwww
+2016-11-17 16:19:34,668 - root - INFO - directory_manager : 131 - removed path D:\Cours\Tests\nnnnn
+2016-11-17 16:19:34,668 - root - INFO - directory_manager : 145 - removed dir D:\Cours\Tests\nnnnn
+2016-11-17 16:19:34,684 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:19:34,688 - root - INFO - logger : 20 - Folder removed : test\123\A\nnnnn
+2016-11-17 16:26:23,435 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:26:31,473 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:26:35,487 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 16:26:35,487 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:26:35,502 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:26:35,502 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:26:47,546 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:26:51,546 - root - INFO - logger : 20 - Folder created : test\123\A\ALO
+2016-11-17 16:26:51,546 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:26:51,561 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:26:51,561 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:26:59,616 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:27:03,659 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\aa.txt file aa.txt
+2016-11-17 16:27:03,674 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\Nouveau document texte.txt
+2016-11-17 16:27:03,674 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALED\Nouveau document texte.txt
+2016-11-17 16:27:31,764 - root - INFO - logger : 20 - Folder created : test\123\A\ALO\ALED
+2016-11-17 16:27:32,852 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALO\ALED\aa.txt file aa.txt
+2016-11-17 16:27:32,852 - root - INFO - directory_manager : 162 - [['D:\\Cours\\Tests\\ALED\\aa.txt']]
+2016-11-17 16:27:32,852 - root - INFO - directory_manager : 169 - to delete test\123\A\ALED\aa.txt
+2016-11-17 16:27:32,867 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aa.txt
+2016-11-17 16:27:32,867 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 16:27:32,867 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALED
+2016-11-17 16:27:32,867 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALED\aa.txt
+2016-11-17 16:28:08,969 - root - INFO - directory_manager : 162 - [['D:\\Cours\\Tests\\ALO\\ALED\\aa.txt']]
+2016-11-17 16:28:08,969 - root - INFO - directory_manager : 169 - to delete test\123\A\ALO\ALED\aa.txt
+2016-11-17 16:28:08,969 - root - INFO - logger : 20 - File removed : %stest\123\A\ALO\ALED\aa.txt
+2016-11-17 16:28:08,984 - root - INFO - logger : 20 - Folder removed : test\123\A\ALO\ALED
+2016-11-17 16:28:08,984 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:28:08,984 - root - INFO - logger : 20 - Folder removed : test\123\A\ALO
+2016-11-17 16:28:08,984 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALO\ALED
+2016-11-17 16:28:08,984 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALO\ALED\aa.txt
+2016-11-17 16:28:08,984 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALO
+2016-11-17 16:29:29,151 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 16:29:37,180 - root - INFO - logger : 20 - Folder created : test\123\A\ALO
+2016-11-17 16:29:49,257 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\aaa.txt file aaa.txt
+2016-11-17 16:29:57,275 - root - INFO - logger : 20 - Folder created : test\123\A\ALO\ALED
+2016-11-17 16:29:57,291 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALO\ALED\aaa.txt file aaa.txt
+2016-11-17 16:29:57,307 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\aaa.txt
+2016-11-17 16:29:57,307 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:29:57,307 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 16:29:57,307 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALED\aaa.txt
+2016-11-17 16:29:57,307 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALED
+2016-11-17 16:30:09,342 - root - INFO - directory_manager : 162 - [['D:\\Cours\\Tests\\ALO\\ALED\\aaa.txt']]
+2016-11-17 16:30:09,342 - root - INFO - directory_manager : 169 - to delete test\123\A\ALO\ALED\aaa.txt
+2016-11-17 16:30:09,342 - root - INFO - logger : 20 - File removed : %stest\123\A\ALO\ALED\aaa.txt
+2016-11-17 16:30:09,357 - root - INFO - logger : 20 - Folder removed : test\123\A\ALO\ALED
+2016-11-17 16:30:09,357 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:30:09,357 - root - INFO - logger : 20 - Folder removed : test\123\A\ALO
+2016-11-17 16:30:09,357 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALO\ALED
+2016-11-17 16:30:09,357 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALO\ALED\aaa.txt
+2016-11-17 16:30:09,357 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\ALO
+2016-11-17 16:30:57,473 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:31:01,488 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA
+2016-11-17 16:31:01,488 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:31:01,503 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:31:01,503 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:31:41,587 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:31:45,600 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB
+2016-11-17 16:31:45,600 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:31:45,600 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:31:45,600 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:31:53,624 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA\Nouveau dossier
+2016-11-17 16:32:13,690 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAAA
+2016-11-17 16:32:13,706 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAAA\Nouveau dossier
+2016-11-17 16:32:13,706 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:32:13,706 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA\Nouveau dossier
+2016-11-17 16:32:13,706 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:32:13,721 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA
+2016-11-17 16:32:13,721 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\AAAA\Nouveau dossier
+2016-11-17 16:32:13,721 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\AAAA
+2016-11-17 16:32:21,740 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:32:21,740 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB\AAAA\Nouveau dossier
+2016-11-17 16:32:21,740 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:32:21,755 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB\AAAA
+2016-11-17 16:32:21,755 - root - INFO - directory_manager : 162 - []
+2016-11-17 16:32:21,755 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB
+2016-11-17 16:32:21,755 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\BBBB\AAAA\Nouveau dossier
+2016-11-17 16:32:21,755 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\BBBB\AAAA
+2016-11-17 16:32:21,755 - root - INFO - directory_manager : 141 - remove D:\Cours\Tests\BBBB
+2016-11-17 16:34:31,178 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:34:31,200 - root - INFO - logger : 20 - Folder created : test\123\A
+2016-11-17 16:34:43,227 - root - INFO - logger : 20 - Folder created : test\123\A\ALLO
+2016-11-17 16:34:51,258 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:34:55,261 - root - INFO - logger : 20 - Folder created : test\123\A\ALED
+2016-11-17 16:34:55,261 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:34:55,279 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:35:03,320 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\AAA
+2016-11-17 16:35:11,327 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\AAA\BBB
+2016-11-17 16:35:19,345 - root - INFO - logger : 20 - Folder created : test\123\A\ALED\AAA\BBB\CCCC
+2016-11-17 16:35:35,379 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:35:35,379 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\AAA\BBB\CCCC
+2016-11-17 16:35:39,391 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:35:39,391 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\AAA\BBB
+2016-11-17 16:36:03,477 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:36:07,545 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALED\bbbb.txt file bbbb.txt
+2016-11-17 16:36:07,567 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\Nouveau document texte.txt
+2016-11-17 16:36:19,617 - root - INFO - logger : 20 - Folder created : test\123\A\ALLO\ALED
+2016-11-17 16:36:19,617 - root - INFO - logger : 20 - Folder created : test\123\A\ALLO\ALED\AAA
+2016-11-17 16:36:19,679 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALLO\ALED\bbbb.txt file bbbb.txt
+2016-11-17 16:36:19,679 - root - INFO - logger : 20 - File removed : %stest\123\A\ALED\bbbb.txt
+2016-11-17 16:36:19,679 - root - INFO - directory_manager : 160 - [['D:\\Cours\\Tests\\ALED\\AAA']]
+2016-11-17 16:36:19,679 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:36:19,695 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED\AAA
+2016-11-17 16:36:19,695 - root - INFO - logger : 20 - Folder removed : test\123\A\ALED
+2016-11-17 16:36:47,774 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:36:55,837 - root - INFO - logger : 20 - File created / updated : srv test\123\A\Nouveau dossier\yo.txt file yo.txt
+2016-11-17 16:36:59,854 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier\Nouveau dossier
+2016-11-17 16:37:03,871 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier\hahahahaha
+2016-11-17 16:37:03,871 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:37:03,871 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier\Nouveau dossier
+2016-11-17 16:37:07,916 - root - INFO - logger : 20 - File created / updated : srv test\123\A\Nouveau dossier\hahahahaha\test.txt file test.txt
+2016-11-17 16:37:15,938 - root - INFO - logger : 20 - Folder created : test\123\A\ALLO\Nouveau dossier
+2016-11-17 16:37:15,953 - root - INFO - logger : 20 - Folder created : test\123\A\ALLO\Nouveau dossier\hahahahaha
+2016-11-17 16:37:16,016 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALLO\Nouveau dossier\yo.txt file yo.txt
+2016-11-17 16:37:16,022 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALLO\Nouveau dossier\hahahahaha\test.txt file test.txt
+2016-11-17 16:37:16,022 - root - INFO - logger : 20 - File removed : %stest\123\A\Nouveau dossier\hahahahaha\test.txt
+2016-11-17 16:37:16,022 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:37:16,037 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier\hahahahaha
+2016-11-17 16:37:16,037 - root - INFO - logger : 20 - File removed : %stest\123\A\Nouveau dossier\yo.txt
+2016-11-17 16:37:16,037 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:37:16,053 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:37:36,098 - root - INFO - directory_manager : 160 - [['D:\\Cours\\Tests\\ALLO\\Nouveau dossier\\hahahahaha\\test.txt'], ['D:\\Cours\\Tests\\ALLO\\Nouveau dossier\\yo.txt', 'D:\\Cours\\Tests\\ALLO\\Nouveau dossier\\hahahahaha']]
+2016-11-17 16:37:36,098 - root - INFO - logger : 20 - File removed : %stest\123\A\ALLO\Nouveau dossier\yo.txt
+2016-11-17 16:37:36,098 - root - INFO - directory_manager : 160 - [['D:\\Cours\\Tests\\ALLO\\Nouveau dossier\\hahahahaha\\test.txt']]
+2016-11-17 16:37:36,113 - root - INFO - logger : 20 - File removed : %stest\123\A\ALLO\Nouveau dossier\hahahahaha\test.txt
+2016-11-17 16:37:36,113 - root - INFO - logger : 20 - Folder removed : test\123\A\ALLO\Nouveau dossier\hahahahaha
+2016-11-17 16:39:24,937 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:39:32,965 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:39:36,979 - root - INFO - logger : 20 - Folder created : test\123\A\AAA
+2016-11-17 16:39:40,983 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB
+2016-11-17 16:39:40,983 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:39:40,998 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:39:45,044 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\nnnn
+2016-11-17 16:39:53,102 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBBB\nnnn\ppp.txt file ppp.txt
+2016-11-17 16:40:01,133 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB - Copie
+2016-11-17 16:40:01,133 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB - Copie\nnnn
+2016-11-17 16:40:01,164 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBBB - Copie\nnnn\ppp.txt file ppp.txt
+2016-11-17 16:40:17,199 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\BBBB
+2016-11-17 16:40:17,212 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\BBBB\nnnn
+2016-11-17 16:40:17,259 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\BBBB\nnnn\ppp.txt file ppp.txt
+2016-11-17 16:40:17,274 - root - INFO - logger : 20 - File removed : %stest\123\A\BBBB\nnnn\ppp.txt
+2016-11-17 16:40:17,275 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:40:17,276 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB\nnnn
+2016-11-17 16:40:17,276 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:40:17,276 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB
+2016-11-17 16:40:33,334 - root - INFO - directory_manager : 160 - [['D:\\Cours\\Tests\\AAA\\BBBB\\nnnn\\ppp.txt']]
+2016-11-17 16:40:33,334 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\BBBB\nnnn\ppp.txt
+2016-11-17 16:40:33,350 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA\BBBB\nnnn
+2016-11-17 16:40:33,350 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:40:33,350 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA\BBBB
+2016-11-17 16:40:49,395 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\BBBB - Copie
+2016-11-17 16:40:49,407 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\BBBB - Copie\nnnn
+2016-11-17 16:40:49,447 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\BBBB - Copie\nnnn\ppp.txt file ppp.txt
+2016-11-17 16:40:49,469 - root - INFO - logger : 20 - File removed : %stest\123\A\BBBB - Copie\nnnn\ppp.txt
+2016-11-17 16:40:49,469 - root - INFO - directory_manager : 160 - [['D:\\Cours\\Tests\\BBBB - Copie\\nnnn']]
+2016-11-17 16:40:49,469 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:40:49,470 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB - Copie\nnnn
+2016-11-17 16:40:49,485 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB - Copie
+2016-11-17 16:40:57,506 - root - INFO - directory_manager : 160 - [['D:\\Cours\\Tests\\AAA\\BBBB - Copie\\nnnn'], ['D:\\Cours\\Tests\\AAA\\BBBB - Copie\\nnnn\\ppp.txt']]
+2016-11-17 16:42:30,342 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:42:38,372 - root - INFO - logger : 20 - Folder created : test\123\A\AAA
+2016-11-17 16:42:42,434 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:42:46,441 - root - INFO - logger : 20 - Folder created : test\123\A\BBB
+2016-11-17 16:42:46,456 - root - INFO - directory_manager : 160 - []
+2016-11-17 16:42:46,456 - root - INFO - directory_manager : 174 - remove myself test\123\A\Nouveau dossier
+2016-11-17 16:42:46,456 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:42:50,459 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\CCCC
+2016-11-17 16:42:54,571 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\CCCC\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:42:58,643 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\CCCC\ppp.txt file ppp.txt
+2016-11-17 16:42:58,658 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\CCCC\Nouveau document texte.txt
+2016-11-17 16:43:26,747 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA
+2016-11-17 16:43:26,762 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA\CCCC
+2016-11-17 16:43:26,815 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBB\AAA\CCCC\ppp.txt file ppp.txt
+2016-11-17 16:43:26,815 - root - INFO - directory_manager : 160 - [['D:\\Cours\\Tests\\AAA\\CCCC'], ['D:\\Cours\\Tests\\AAA\\CCCC\\ppp.txt']]
+2016-11-17 16:44:17,374 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:44:25,462 - root - INFO - logger : 20 - Folder created : test\123\A\AAA
+2016-11-17 16:44:29,489 - root - INFO - logger : 20 - Folder created : test\123\A\BBB
+2016-11-17 16:44:37,545 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\CCC
+2016-11-17 16:44:41,604 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\CCC\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:44:45,686 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\CCC\hhh.txt file hhh.txt
+2016-11-17 16:44:45,692 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\CCC\Nouveau document texte.txt
+2016-11-17 16:44:49,705 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA
+2016-11-17 16:44:49,733 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA\CCC
+2016-11-17 16:44:49,749 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBB\AAA\CCC\hhh.txt file hhh.txt
+2016-11-17 16:44:49,749 - root - INFO - directory_manager : 160 - [['D:\\Cours\\Tests\\AAA\\CCC'], ['D:\\Cours\\Tests\\AAA\\CCC\\hhh.txt']]
+2016-11-17 16:44:49,749 - root - INFO - directory_manager : 166 - to delete ftp test\123\A\AAA\hhh.txt
+2016-11-17 16:47:00,042 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:47:08,066 - root - INFO - logger : 20 - Folder created : test\123\A\AAA
+2016-11-17 16:47:12,122 - root - INFO - logger : 20 - Folder created : test\123\A\BBB
+2016-11-17 16:47:20,149 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\Nouveau dossier
+2016-11-17 16:47:24,161 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\CCCC
+2016-11-17 16:47:24,161 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAA\Nouveau dossier
+2016-11-17 16:47:24,161 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:47:24,161 - root - INFO - directory_manager : 133 - split path[1] \AAA\Nouveau dossier
+2016-11-17 16:47:24,161 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:47:24,161 - root - INFO - directory_manager : 178 - remove myself test\123\A\AAA\Nouveau dossier
+2016-11-17 16:47:24,176 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA\Nouveau dossier
+2016-11-17 16:47:28,219 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\CCCC\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:47:32,279 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\CCCC\aaa.txt file aaa.txt
+2016-11-17 16:47:32,295 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\CCCC\Nouveau document texte.txt
+2016-11-17 16:47:52,353 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA
+2016-11-17 16:47:52,368 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA\CCCC
+2016-11-17 16:47:53,631 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBB\AAA\CCCC\aaa.txt file aaa.txt
+2016-11-17 16:47:53,647 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\CCCC\aaa.txt
+2016-11-17 16:47:53,647 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAA
+2016-11-17 16:47:53,647 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:47:53,647 - root - INFO - directory_manager : 133 - split path[1] \AAA
+2016-11-17 16:47:53,647 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\AAA\\CCCC']]
+2016-11-17 16:47:53,647 - root - INFO - directory_manager : 169 - to delete ftp test\123\A\AAA\CCCC
+2016-11-17 16:47:53,647 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:47:53,647 - root - INFO - directory_manager : 178 - remove myself test\123\A\AAA\CCCC
+2016-11-17 16:47:53,647 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA\CCCC
+2016-11-17 16:47:53,647 - root - INFO - directory_manager : 178 - remove myself test\123\A\AAA
+2016-11-17 16:47:53,663 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA
+2016-11-17 16:49:37,899 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:49:41,910 - root - INFO - logger : 20 - Folder created : test\123\A\ALO
+2016-11-17 16:49:41,910 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:49:41,910 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:49:41,910 - root - INFO - directory_manager : 133 - split path[1] \Nouveau dossier
+2016-11-17 16:49:41,910 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:49:41,910 - root - INFO - directory_manager : 178 - remove myself test\123\A\Nouveau dossier
+2016-11-17 16:49:41,932 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:49:46,010 - root - INFO - logger : 20 - File created / updated : srv test\123\A\ALO\bbb.txt file bbb.txt
+2016-11-17 16:49:58,044 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\ALO
+2016-11-17 16:49:58,097 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBB\ALO\bbb.txt file bbb.txt
+2016-11-17 16:49:58,097 - root - INFO - logger : 20 - File removed : %stest\123\A\ALO\bbb.txt
+2016-11-17 16:49:58,097 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\ALO
+2016-11-17 16:49:58,097 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:49:58,097 - root - INFO - directory_manager : 133 - split path[1] \ALO
+2016-11-17 16:49:58,097 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:49:58,097 - root - INFO - directory_manager : 178 - remove myself test\123\A\ALO
+2016-11-17 16:49:58,112 - root - INFO - logger : 20 - Folder removed : test\123\A\ALO
+2016-11-17 16:50:06,132 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:50:14,152 - root - INFO - logger : 20 - Folder created : test\123\A\aled
+2016-11-17 16:50:14,152 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:50:14,152 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:50:14,152 - root - INFO - directory_manager : 133 - split path[1] \Nouveau dossier
+2016-11-17 16:50:14,152 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:50:14,152 - root - INFO - directory_manager : 178 - remove myself test\123\A\Nouveau dossier
+2016-11-17 16:50:14,167 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:50:22,238 - root - INFO - logger : 20 - Folder created : test\123\A\aled\encore
+2016-11-17 16:50:30,313 - root - INFO - logger : 20 - File created / updated : srv test\123\A\aled\encore\toi.txt file toi.txt
+2016-11-17 16:50:46,370 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\aled
+2016-11-17 16:50:46,385 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\aled\encore
+2016-11-17 16:50:46,432 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBB\aled\encore\toi.txt file toi.txt
+2016-11-17 16:50:46,432 - root - INFO - logger : 20 - File removed : %stest\123\A\aled\encore\toi.txt
+2016-11-17 16:50:46,432 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\aled\encore
+2016-11-17 16:50:46,432 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:50:46,432 - root - INFO - directory_manager : 133 - split path[1] \aled\encore
+2016-11-17 16:50:46,432 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:50:46,432 - root - INFO - directory_manager : 178 - remove myself test\123\A\aled\encore
+2016-11-17 16:50:46,449 - root - INFO - logger : 20 - Folder removed : test\123\A\aled\encore
+2016-11-17 16:50:46,449 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\aled
+2016-11-17 16:50:46,449 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:50:46,449 - root - INFO - directory_manager : 133 - split path[1] \aled
+2016-11-17 16:50:46,450 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:50:46,450 - root - INFO - directory_manager : 178 - remove myself test\123\A\aled
+2016-11-17 16:50:46,455 - root - INFO - logger : 20 - Folder removed : test\123\A\aled
+2016-11-17 16:51:18,544 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBB
+2016-11-17 16:51:18,544 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:51:18,544 - root - INFO - directory_manager : 133 - split path[1] \BBB
+2016-11-17 16:51:18,544 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\BBB\\ALO', 'D:\\Cours\\Tests\\BBB\\aled', 'D:\\Cours\\Tests\\BBB\\AAA'], ['D:\\Cours\\Tests\\BBB\\aled\\encore', 'D:\\Cours\\Tests\\BBB\\AAA\\CCCC', 'D:\\Cours\\Tests\\BBB\\ALO\\bbb.txt'], ['D:\\Cours\\Tests\\BBB\\aled\\encore\\toi.txt', 'D:\\Cours\\Tests\\BBB\\AAA\\CCCC\\aaa.txt']]
+2016-11-17 16:51:18,544 - root - INFO - directory_manager : 169 - to delete ftp test\123\A\BBB\toi.txt
+2016-11-17 16:54:02,865 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:54:10,901 - root - INFO - logger : 20 - Folder created : test\123\A\AAA
+2016-11-17 16:54:30,981 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB
+2016-11-17 16:54:39,010 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\CCCC
+2016-11-17 16:54:47,107 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\CCCC\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:54:51,153 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\CCCC\hhhh.txt file hhhh.txt
+2016-11-17 16:54:51,160 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\CCCC\Nouveau document texte.txt
+2016-11-17 16:54:59,179 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAA
+2016-11-17 16:54:59,195 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAA\CCCC
+2016-11-17 16:54:59,232 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBBB\AAA\CCCC\hhhh.txt file hhhh.txt
+2016-11-17 16:54:59,247 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\CCCC\hhhh.txt
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAA
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 133 - split path[1] \AAA
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\AAA\\CCCC']]
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAA\CCCC
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 170 - to delete ftp test\123\A\AAA\CCCC
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 179 - remove myself test\123\A\AAA\CCCC
+2016-11-17 16:54:59,247 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA\CCCC
+2016-11-17 16:54:59,247 - root - INFO - directory_manager : 179 - remove myself test\123\A\AAA
+2016-11-17 16:54:59,263 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA
+2016-11-17 16:55:11,289 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBBB
+2016-11-17 16:55:11,289 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:55:11,289 - root - INFO - directory_manager : 133 - split path[1] \BBBB
+2016-11-17 16:55:11,289 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\BBBB\\AAA'], ['D:\\Cours\\Tests\\BBBB\\AAA\\CCCC'], ['D:\\Cours\\Tests\\BBBB\\AAA\\CCCC\\hhhh.txt']]
+2016-11-17 16:55:11,289 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\BBBB\AAA\CCCC\hhhh.txt
+2016-11-17 16:55:11,289 - root - INFO - directory_manager : 170 - to delete ftp test\123\A\BBBB\hhhh.txt
+2016-11-17 16:56:30,076 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:56:38,142 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA
+2016-11-17 16:56:42,148 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB
+2016-11-17 16:56:46,243 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA\Nouveau dossier
+2016-11-17 16:56:50,263 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA\CCCC
+2016-11-17 16:56:50,263 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAAA\Nouveau dossier
+2016-11-17 16:56:50,263 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:56:50,263 - root - INFO - directory_manager : 133 - split path[1] \AAAA\Nouveau dossier
+2016-11-17 16:56:50,263 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:56:50,263 - root - INFO - directory_manager : 179 - remove myself test\123\A\AAAA\Nouveau dossier
+2016-11-17 16:56:50,279 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA\Nouveau dossier
+2016-11-17 16:56:54,335 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAAA\CCCC\aaaa.txt file aaaa.txt
+2016-11-17 16:57:10,377 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAAA
+2016-11-17 16:57:10,430 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAAA\CCCC
+2016-11-17 16:57:10,458 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBBB\AAAA\CCCC\aaaa.txt file aaaa.txt
+2016-11-17 16:57:10,458 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAAA\CCCC
+2016-11-17 16:57:10,458 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:57:10,458 - root - INFO - directory_manager : 133 - split path[1] \AAAA\CCCC
+2016-11-17 16:57:10,458 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\AAAA\\CCCC\\aaaa.txt']]
+2016-11-17 16:57:33,683 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 16:57:41,720 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA
+2016-11-17 16:57:45,783 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB
+2016-11-17 16:57:49,835 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAAA\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 16:57:57,858 - root - INFO - logger : 20 - File removed : %stest\123\A\AAAA\Nouveau document texte.txt
+2016-11-17 16:58:01,875 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA\CCCC
+2016-11-17 16:58:09,938 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAAA\CCCC\hhhh.txt file hhhh.txt
+2016-11-17 16:58:17,959 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAAA
+2016-11-17 16:58:18,043 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAAA\CCCC
+2016-11-17 16:58:18,059 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBBB\AAAA\CCCC\hhhh.txt file hhhh.txt
+2016-11-17 16:58:18,059 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAAA\CCCC
+2016-11-17 16:58:18,059 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:58:18,059 - root - INFO - directory_manager : 133 - split path[1] \AAAA\CCCC
+2016-11-17 16:58:18,059 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\AAAA\\CCCC\\hhhh.txt']]
+2016-11-17 16:58:18,059 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAAA\CCCC\hhhh.txt path sep \
+2016-11-17 16:58:18,059 - root - INFO - directory_manager : 170 - to delete ftp test\123\A\AAAA\CCCC\hhhh.txt
+2016-11-17 16:58:18,075 - root - INFO - logger : 20 - File removed : %stest\123\A\AAAA\CCCC\hhhh.txt
+2016-11-17 16:58:18,075 - root - INFO - directory_manager : 179 - remove myself test\123\A\AAAA\CCCC
+2016-11-17 16:58:18,075 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA\CCCC
+2016-11-17 16:58:18,075 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAAA
+2016-11-17 16:58:18,075 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:58:18,075 - root - INFO - directory_manager : 133 - split path[1] \AAAA
+2016-11-17 16:58:18,075 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:58:18,075 - root - INFO - directory_manager : 179 - remove myself test\123\A\AAAA
+2016-11-17 16:58:18,090 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA
+2016-11-17 16:58:30,124 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBBB\AAAA\CCCC
+2016-11-17 16:58:30,124 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:58:30,124 - root - INFO - directory_manager : 133 - split path[1] \BBBB\AAAA\CCCC
+2016-11-17 16:58:30,124 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\BBBB\\AAAA\\CCCC\\hhhh.txt']]
+2016-11-17 16:58:30,124 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\BBBB\AAAA\CCCC\hhhh.txt path sep \
+2016-11-17 16:58:30,124 - root - INFO - directory_manager : 170 - to delete ftp test\123\A\BBBB\AAAA\CCCC\hhhh.txt
+2016-11-17 16:58:30,124 - root - INFO - logger : 20 - File removed : %stest\123\A\BBBB\AAAA\CCCC\hhhh.txt
+2016-11-17 16:58:30,124 - root - INFO - directory_manager : 179 - remove myself test\123\A\BBBB\AAAA\CCCC
+2016-11-17 16:58:30,140 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB\AAAA\CCCC
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBBB\AAAA
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 133 - split path[1] \BBBB\AAAA
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 179 - remove myself test\123\A\BBBB\AAAA
+2016-11-17 16:58:30,140 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB\AAAA
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBBB
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 133 - split path[1] \BBBB
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:58:30,140 - root - INFO - directory_manager : 179 - remove myself test\123\A\BBBB
+2016-11-17 16:58:30,158 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB
+2016-11-17 16:59:38,283 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 16:59:42,291 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA
+2016-11-17 16:59:42,291 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\Nouveau dossier
+2016-11-17 16:59:42,291 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:59:42,291 - root - INFO - directory_manager : 133 - split path[1] \Nouveau dossier
+2016-11-17 16:59:42,291 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:59:42,291 - root - INFO - directory_manager : 179 - remove myself test\123\A\Nouveau dossier
+2016-11-17 16:59:42,306 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 16:59:46,331 - root - INFO - logger : 20 - Folder created : test\123\A\bbbb
+2016-11-17 16:59:50,345 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA\Nouveau dossier
+2016-11-17 16:59:54,374 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA\cccc
+2016-11-17 16:59:54,374 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAAA\Nouveau dossier
+2016-11-17 16:59:54,389 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 16:59:54,389 - root - INFO - directory_manager : 133 - split path[1] \AAAA\Nouveau dossier
+2016-11-17 16:59:54,389 - root - INFO - directory_manager : 163 - []
+2016-11-17 16:59:54,389 - root - INFO - directory_manager : 179 - remove myself test\123\A\AAAA\Nouveau dossier
+2016-11-17 16:59:54,389 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA\Nouveau dossier
+2016-11-17 16:59:58,455 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAAA\cccc\vvvv.txt file vvvv.txt
+2016-11-17 17:00:02,515 - root - INFO - logger : 20 - Folder created : test\123\A\bbbb\AAAA
+2016-11-17 17:00:02,534 - root - INFO - logger : 20 - Folder created : test\123\A\bbbb\AAAA\cccc
+2016-11-17 17:00:02,552 - root - INFO - logger : 20 - File created / updated : srv test\123\A\bbbb\AAAA\cccc\vvvv.txt file vvvv.txt
+2016-11-17 17:00:02,552 - root - INFO - logger : 20 - File removed : %stest\123\A\AAAA\cccc\vvvv.txt
+2016-11-17 17:00:02,552 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAAA
+2016-11-17 17:00:02,552 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:00:02,552 - root - INFO - directory_manager : 133 - split path[1] \AAAA
+2016-11-17 17:00:02,552 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\AAAA\\cccc']]
+2016-11-17 17:00:02,552 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAAA\cccc path sep \
+2016-11-17 17:00:02,552 - root - INFO - directory_manager : 170 - to delete ftp test\123\A\AAAA\cccc
+2016-11-17 17:00:02,552 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:00:02,552 - root - INFO - directory_manager : 179 - remove myself test\123\A\AAAA\cccc
+2016-11-17 17:00:02,568 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA\cccc
+2016-11-17 17:00:02,568 - root - INFO - directory_manager : 179 - remove myself test\123\A\AAAA
+2016-11-17 17:00:02,568 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA
+2016-11-17 17:00:06,583 - root - INFO - logger : 20 - File removed : %stest\123\A\bbbb\AAAA\cccc\vvvv.txt
+2016-11-17 17:00:06,583 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\bbbb\AAAA\cccc
+2016-11-17 17:00:06,583 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:00:06,583 - root - INFO - directory_manager : 133 - split path[1] \bbbb\AAAA\cccc
+2016-11-17 17:00:06,583 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:00:06,583 - root - INFO - directory_manager : 179 - remove myself test\123\A\bbbb\AAAA\cccc
+2016-11-17 17:00:06,598 - root - INFO - logger : 20 - Folder removed : test\123\A\bbbb\AAAA\cccc
+2016-11-17 17:00:06,598 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\bbbb\AAAA
+2016-11-17 17:00:06,598 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:00:06,598 - root - INFO - directory_manager : 133 - split path[1] \bbbb\AAAA
+2016-11-17 17:00:06,598 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:00:06,598 - root - INFO - directory_manager : 179 - remove myself test\123\A\bbbb\AAAA
+2016-11-17 17:00:06,614 - root - INFO - logger : 20 - Folder removed : test\123\A\bbbb\AAAA
+2016-11-17 17:00:06,614 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\bbbb
+2016-11-17 17:00:06,614 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:00:06,614 - root - INFO - directory_manager : 133 - split path[1] \bbbb
+2016-11-17 17:00:06,614 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:00:06,614 - root - INFO - directory_manager : 179 - remove myself test\123\A\bbbb
+2016-11-17 17:00:06,614 - root - INFO - logger : 20 - Folder removed : test\123\A\bbbb
+2016-11-17 17:00:14,619 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 17:00:18,628 - root - INFO - logger : 20 - Folder created : test\123\A\pppp
+2016-11-17 17:00:18,628 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\Nouveau dossier
+2016-11-17 17:00:18,628 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:00:18,628 - root - INFO - directory_manager : 133 - split path[1] \Nouveau dossier
+2016-11-17 17:00:18,628 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:00:18,628 - root - INFO - directory_manager : 179 - remove myself test\123\A\Nouveau dossier
+2016-11-17 17:00:18,643 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 17:00:22,648 - root - INFO - logger : 20 - Folder created : test\123\A\hhhhh
+2016-11-17 17:00:30,677 - root - INFO - logger : 20 - Folder created : test\123\A\hhhhh\ccc
+2016-11-17 17:00:38,731 - root - INFO - logger : 20 - File created / updated : srv test\123\A\hhhhh\ccc\tttt.txt file tttt.txt
+2016-11-17 17:00:42,736 - root - INFO - logger : 20 - Folder created : test\123\A\pppp\hhhhh
+2016-11-17 17:00:42,751 - root - INFO - logger : 20 - Folder created : test\123\A\pppp\hhhhh\ccc
+2016-11-17 17:00:42,805 - root - INFO - logger : 20 - File created / updated : srv test\123\A\pppp\hhhhh\ccc\tttt.txt file tttt.txt
+2016-11-17 17:00:42,805 - root - INFO - logger : 20 - File removed : %stest\123\A\hhhhh\ccc\tttt.txt
+2016-11-17 17:00:42,805 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\hhhhh\ccc
+2016-11-17 17:00:42,805 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:00:42,805 - root - INFO - directory_manager : 133 - split path[1] \hhhhh\ccc
+2016-11-17 17:00:42,805 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:00:42,805 - root - INFO - directory_manager : 179 - remove myself test\123\A\hhhhh\ccc
+2016-11-17 17:00:42,821 - root - INFO - logger : 20 - Folder removed : test\123\A\hhhhh\ccc
+2016-11-17 17:00:42,821 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\hhhhh
+2016-11-17 17:00:42,821 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:00:42,821 - root - INFO - directory_manager : 133 - split path[1] \hhhhh
+2016-11-17 17:00:42,821 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:00:42,821 - root - INFO - directory_manager : 179 - remove myself test\123\A\hhhhh
+2016-11-17 17:00:42,836 - root - INFO - logger : 20 - Folder removed : test\123\A\hhhhh
+2016-11-17 17:01:02,850 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\pppp
+2016-11-17 17:01:02,850 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:01:02,850 - root - INFO - directory_manager : 133 - split path[1] \pppp
+2016-11-17 17:01:02,850 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\pppp\\hhhhh'], ['D:\\Cours\\Tests\\pppp\\hhhhh\\ccc'], ['D:\\Cours\\Tests\\pppp\\hhhhh\\ccc\\tttt.txt']]
+2016-11-17 17:01:02,850 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\pppp\hhhhh\ccc\tttt.txt path sep \
+2016-11-17 17:01:02,850 - root - INFO - directory_manager : 170 - to delete ftp test\123\A\pppp\tttt.txt
+2016-11-17 17:11:12,382 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 17:11:20,462 - root - INFO - logger : 20 - Folder created : test\123\A\AAA
+2016-11-17 17:11:24,464 - root - INFO - logger : 20 - Folder created : test\123\A\BBB
+2016-11-17 17:11:32,516 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\ccc
+2016-11-17 17:11:36,523 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\ccc\Nouveau dossier
+2016-11-17 17:11:40,527 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAA\ccc\Nouveau dossier
+2016-11-17 17:11:40,527 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:11:40,527 - root - INFO - directory_manager : 133 - split path[1] \AAA\ccc\Nouveau dossier
+2016-11-17 17:11:40,527 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:11:40,527 - root - INFO - directory_manager : 180 - remove myself test\123\A\AAA\ccc\Nouveau dossier
+2016-11-17 17:11:40,530 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA\ccc\Nouveau dossier
+2016-11-17 17:11:44,606 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\ccc\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 17:11:48,669 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\ccc\ddd.txt file ddd.txt
+2016-11-17 17:11:48,669 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\ccc\Nouveau document texte.txt
+2016-11-17 17:12:00,694 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA
+2016-11-17 17:12:00,710 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA\ccc
+2016-11-17 17:12:00,757 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBB\AAA\ccc\ddd.txt file ddd.txt
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAA
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 133 - split path[1] \AAA
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\AAA\\ccc'], ['D:\\Cours\\Tests\\AAA\\ccc\\ddd.txt']]
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAA\ccc\ddd.txt
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\AAA\ccc\ddd.txt
+2016-11-17 17:12:00,757 - root - INFO - logger : 20 - File removed : %stest\123\A\\AAA\ccc\ddd.txt
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAA\ccc
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\AAA\ccc
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:12:00,757 - root - INFO - directory_manager : 180 - remove myself test\123\A\\AAA\ccc
+2016-11-17 17:12:00,776 - root - INFO - logger : 20 - Folder removed : test\123\A\\AAA\ccc
+2016-11-17 17:12:00,776 - root - INFO - directory_manager : 180 - remove myself test\123\A\AAA
+2016-11-17 17:12:00,776 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA
+2016-11-17 17:12:12,821 - root - INFO - logger : 20 - File removed : %stest\123\A\BBB\AAA\ccc\ddd.txt
+2016-11-17 17:12:12,821 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBB
+2016-11-17 17:12:12,821 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:12:12,821 - root - INFO - directory_manager : 133 - split path[1] \BBB
+2016-11-17 17:12:12,821 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\BBB\\AAA'], ['D:\\Cours\\Tests\\BBB\\AAA\\ccc']]
+2016-11-17 17:12:12,821 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\BBB\AAA\ccc
+2016-11-17 17:12:12,822 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\BBB\AAA\ccc
+2016-11-17 17:12:12,822 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:12:12,822 - root - INFO - directory_manager : 180 - remove myself test\123\A\\BBB\AAA\ccc
+2016-11-17 17:12:12,827 - root - INFO - logger : 20 - Folder removed : test\123\A\\BBB\AAA\ccc
+2016-11-17 17:12:12,827 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\BBB\AAA
+2016-11-17 17:12:12,827 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\BBB\AAA
+2016-11-17 17:12:12,827 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:12:12,827 - root - INFO - directory_manager : 180 - remove myself test\123\A\\BBB\AAA
+2016-11-17 17:12:12,827 - root - INFO - logger : 20 - Folder removed : test\123\A\\BBB\AAA
+2016-11-17 17:12:12,827 - root - INFO - directory_manager : 180 - remove myself test\123\A\BBB
+2016-11-17 17:12:12,843 - root - INFO - logger : 20 - Folder removed : test\123\A\BBB
+2016-11-17 17:12:28,894 - root - INFO - logger : 20 - Folder created : test\123\A\Nouveau dossier
+2016-11-17 17:12:32,908 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA
+2016-11-17 17:12:32,908 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\Nouveau dossier
+2016-11-17 17:12:32,908 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:12:32,908 - root - INFO - directory_manager : 133 - split path[1] \Nouveau dossier
+2016-11-17 17:12:32,908 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:12:32,908 - root - INFO - directory_manager : 180 - remove myself test\123\A\Nouveau dossier
+2016-11-17 17:12:32,923 - root - INFO - logger : 20 - Folder removed : test\123\A\Nouveau dossier
+2016-11-17 17:12:36,934 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB
+2016-11-17 17:12:44,956 - root - INFO - logger : 20 - Folder created : test\123\A\AAAA\dddd
+2016-11-17 17:12:49,017 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAAA\dddd\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 17:12:53,079 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAAA\dddd\ffff.txt file ffff.txt
+2016-11-17 17:12:53,110 - root - INFO - logger : 20 - File removed : %stest\123\A\AAAA\dddd\Nouveau document texte.txt
+2016-11-17 17:13:01,148 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAAA
+2016-11-17 17:13:01,163 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\AAAA\dddd
+2016-11-17 17:13:01,232 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBBB\AAAA\dddd\ffff.txt file ffff.txt
+2016-11-17 17:13:01,232 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAAA\dddd
+2016-11-17 17:13:01,232 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:13:01,232 - root - INFO - directory_manager : 133 - split path[1] \AAAA\dddd
+2016-11-17 17:13:01,232 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\AAAA\\dddd\\ffff.txt']]
+2016-11-17 17:13:01,232 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAAA\dddd\ffff.txt
+2016-11-17 17:13:01,232 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\AAAA\dddd\ffff.txt
+2016-11-17 17:13:01,248 - root - INFO - logger : 20 - File removed : %stest\123\A\\AAAA\dddd\ffff.txt
+2016-11-17 17:13:01,248 - root - INFO - directory_manager : 180 - remove myself test\123\A\AAAA\dddd
+2016-11-17 17:13:01,248 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA\dddd
+2016-11-17 17:13:01,248 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAAA
+2016-11-17 17:13:01,248 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:13:01,248 - root - INFO - directory_manager : 133 - split path[1] \AAAA
+2016-11-17 17:13:01,248 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:13:01,248 - root - INFO - directory_manager : 180 - remove myself test\123\A\AAAA
+2016-11-17 17:13:01,263 - root - INFO - logger : 20 - Folder removed : test\123\A\AAAA
+2016-11-17 17:13:09,277 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBBB\AAAA\dddd
+2016-11-17 17:13:09,277 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:13:09,277 - root - INFO - directory_manager : 133 - split path[1] \BBBB\AAAA\dddd
+2016-11-17 17:13:09,277 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\BBBB\\AAAA\\dddd\\ffff.txt']]
+2016-11-17 17:13:09,277 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\BBBB\AAAA\dddd\ffff.txt
+2016-11-17 17:13:09,277 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\BBBB\AAAA\dddd\ffff.txt
+2016-11-17 17:13:09,277 - root - INFO - logger : 20 - File removed : %stest\123\A\\BBBB\AAAA\dddd\ffff.txt
+2016-11-17 17:13:09,277 - root - INFO - directory_manager : 180 - remove myself test\123\A\BBBB\AAAA\dddd
+2016-11-17 17:13:09,293 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB\AAAA\dddd
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBBB
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 133 - split path[1] \BBBB
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\BBBB\\AAAA']]
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\BBBB\AAAA
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\BBBB\AAAA
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 180 - remove myself test\123\A\\BBBB\AAAA
+2016-11-17 17:13:09,293 - root - INFO - logger : 20 - Folder removed : test\123\A\\BBBB\AAAA
+2016-11-17 17:13:09,293 - root - INFO - directory_manager : 180 - remove myself test\123\A\BBBB
+2016-11-17 17:13:09,313 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB
+2016-11-17 17:13:33,356 - root - INFO - logger : 20 - Folder created : test\123\A\CCCC
+2016-11-17 17:13:37,364 - root - INFO - logger : 20 - Folder created : test\123\A\dddd
+2016-11-17 17:13:41,379 - root - INFO - logger : 20 - Folder created : test\123\A\CCCC\Nouveau dossier
+2016-11-17 17:13:45,380 - root - INFO - logger : 20 - Folder created : test\123\A\CCCC\TTTT
+2016-11-17 17:13:45,380 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\CCCC\Nouveau dossier
+2016-11-17 17:13:45,380 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:13:45,380 - root - INFO - directory_manager : 133 - split path[1] \CCCC\Nouveau dossier
+2016-11-17 17:13:45,380 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:13:45,380 - root - INFO - directory_manager : 180 - remove myself test\123\A\CCCC\Nouveau dossier
+2016-11-17 17:13:45,395 - root - INFO - logger : 20 - Folder removed : test\123\A\CCCC\Nouveau dossier
+2016-11-17 17:13:49,439 - root - INFO - logger : 20 - File created / updated : srv test\123\A\CCCC\TTTT\SSSSS.txt file SSSSS.txt
+2016-11-17 17:14:01,465 - root - INFO - logger : 20 - Folder created : test\123\A\dddd\CCCC
+2016-11-17 17:14:01,527 - root - INFO - logger : 20 - Folder created : test\123\A\dddd\CCCC\TTTT
+2016-11-17 17:14:01,549 - root - INFO - logger : 20 - File created / updated : srv test\123\A\dddd\CCCC\TTTT\SSSSS.txt file SSSSS.txt
+2016-11-17 17:14:01,549 - root - INFO - logger : 20 - File removed : %stest\123\A\CCCC\TTTT\SSSSS.txt
+2016-11-17 17:14:01,549 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\CCCC\TTTT
+2016-11-17 17:14:01,549 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:14:01,549 - root - INFO - directory_manager : 133 - split path[1] \CCCC\TTTT
+2016-11-17 17:14:01,549 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:14:01,549 - root - INFO - directory_manager : 180 - remove myself test\123\A\CCCC\TTTT
+2016-11-17 17:14:01,564 - root - INFO - logger : 20 - Folder removed : test\123\A\CCCC\TTTT
+2016-11-17 17:14:01,564 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\CCCC
+2016-11-17 17:14:01,564 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:14:01,564 - root - INFO - directory_manager : 133 - split path[1] \CCCC
+2016-11-17 17:14:01,564 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:14:01,564 - root - INFO - directory_manager : 180 - remove myself test\123\A\CCCC
+2016-11-17 17:14:01,564 - root - INFO - logger : 20 - Folder removed : test\123\A\CCCC
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\dddd\CCCC
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 133 - split path[1] \dddd\CCCC
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\dddd\\CCCC\\TTTT'], ['D:\\Cours\\Tests\\dddd\\CCCC\\TTTT\\SSSSS.txt']]
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\dddd\CCCC\TTTT\SSSSS.txt
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\dddd\CCCC\TTTT\SSSSS.txt
+2016-11-17 17:14:09,581 - root - INFO - logger : 20 - File removed : %stest\123\A\\dddd\CCCC\TTTT\SSSSS.txt
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\dddd\CCCC\TTTT
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\dddd\CCCC\TTTT
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:14:09,581 - root - INFO - directory_manager : 180 - remove myself test\123\A\\dddd\CCCC\TTTT
+2016-11-17 17:14:09,596 - root - INFO - logger : 20 - Folder removed : test\123\A\\dddd\CCCC\TTTT
+2016-11-17 17:14:09,596 - root - INFO - directory_manager : 180 - remove myself test\123\A\dddd\CCCC
+2016-11-17 17:14:09,596 - root - INFO - logger : 20 - Folder removed : test\123\A\dddd\CCCC
+2016-11-17 17:14:09,596 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\dddd
+2016-11-17 17:14:09,596 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:14:09,596 - root - INFO - directory_manager : 133 - split path[1] \dddd
+2016-11-17 17:14:09,596 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:14:09,596 - root - INFO - directory_manager : 180 - remove myself test\123\A\dddd
+2016-11-17 17:14:09,612 - root - INFO - logger : 20 - Folder removed : test\123\A\dddd
+2016-11-17 17:14:25,650 - root - INFO - logger : 20 - Folder created : test\123\A\AAA
+2016-11-17 17:14:33,668 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\PPP
+2016-11-17 17:14:37,716 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 17:14:41,786 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\HHHH.txt file HHHH.txt
+2016-11-17 17:14:41,801 - root - INFO - logger : 20 - File removed : %stest\123\A\AAA\Nouveau document texte.txt
+2016-11-17 17:14:45,805 - root - INFO - logger : 20 - Folder created : test\123\A\AAA\PPP\Nouveau dossier
+2016-11-17 17:14:49,814 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAA\PPP\Nouveau dossier
+2016-11-17 17:14:49,814 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:14:49,814 - root - INFO - directory_manager : 133 - split path[1] \AAA\PPP\Nouveau dossier
+2016-11-17 17:14:49,814 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:14:49,814 - root - INFO - directory_manager : 180 - remove myself test\123\A\AAA\PPP\Nouveau dossier
+2016-11-17 17:14:49,814 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA\PPP\Nouveau dossier
+2016-11-17 17:14:53,870 - root - INFO - logger : 20 - File created / updated : srv test\123\A\AAA\PPP\ALED.txt file ALED.txt
+2016-11-17 17:15:01,882 - root - INFO - logger : 20 - Folder created : test\123\A\BBB
+2016-11-17 17:15:14,653 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA
+2016-11-17 17:15:14,653 - root - INFO - logger : 20 - Folder created : test\123\A\BBB\AAA\PPP
+2016-11-17 17:15:14,684 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBB\AAA\HHHH.txt file HHHH.txt
+2016-11-17 17:15:14,700 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBB\AAA\PPP\ALED.txt file ALED.txt
+2016-11-17 17:15:14,700 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\AAA
+2016-11-17 17:15:14,700 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:15:14,700 - root - INFO - directory_manager : 133 - split path[1] \AAA
+2016-11-17 17:15:14,700 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\AAA\\HHHH.txt', 'D:\\Cours\\Tests\\AAA\\PPP'], ['D:\\Cours\\Tests\\AAA\\PPP\\ALED.txt']]
+2016-11-17 17:15:14,700 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAA\PPP\ALED.txt
+2016-11-17 17:15:14,700 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\AAA\PPP\ALED.txt
+2016-11-17 17:15:14,715 - root - INFO - logger : 20 - File removed : %stest\123\A\\AAA\PPP\ALED.txt
+2016-11-17 17:15:14,715 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAA\HHHH.txt
+2016-11-17 17:15:14,715 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\AAA\HHHH.txt
+2016-11-17 17:15:14,715 - root - INFO - logger : 20 - File removed : %stest\123\A\\AAA\HHHH.txt
+2016-11-17 17:15:14,715 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\AAA\PPP
+2016-11-17 17:15:14,715 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\AAA\PPP
+2016-11-17 17:15:14,715 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:15:14,715 - root - INFO - directory_manager : 180 - remove myself test\123\A\\AAA\PPP
+2016-11-17 17:15:14,731 - root - INFO - logger : 20 - Folder removed : test\123\A\\AAA\PPP
+2016-11-17 17:15:14,731 - root - INFO - directory_manager : 180 - remove myself test\123\A\AAA
+2016-11-17 17:15:14,731 - root - INFO - logger : 20 - Folder removed : test\123\A\AAA
+2016-11-17 17:15:26,788 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBB\AAA\PPP
+2016-11-17 17:15:26,788 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:15:26,788 - root - INFO - directory_manager : 133 - split path[1] \BBB\AAA\PPP
+2016-11-17 17:15:26,788 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\BBB\\AAA\\PPP\\ALED.txt']]
+2016-11-17 17:15:26,788 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\BBB\AAA\PPP\ALED.txt
+2016-11-17 17:15:26,789 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\BBB\AAA\PPP\ALED.txt
+2016-11-17 17:15:26,792 - root - INFO - logger : 20 - File removed : %stest\123\A\\BBB\AAA\PPP\ALED.txt
+2016-11-17 17:15:26,792 - root - INFO - directory_manager : 180 - remove myself test\123\A\BBB\AAA\PPP
+2016-11-17 17:15:26,792 - root - INFO - logger : 20 - Folder removed : test\123\A\BBB\AAA\PPP
+2016-11-17 17:15:26,808 - root - INFO - logger : 20 - File removed : %stest\123\A\BBB\AAA\HHHH.txt
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 130 - removed path D:\Cours\Tests\BBB
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 131 - root D:\Cours\Tests
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 133 - split path[1] \BBB
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 163 - [['D:\\Cours\\Tests\\BBB\\AAA']]
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 168 - to delete init D:\Cours\Tests\BBB\AAA
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 171 - to delete ftp test\123\A\\BBB\AAA
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 163 - []
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 180 - remove myself test\123\A\\BBB\AAA
+2016-11-17 17:15:26,808 - root - INFO - logger : 20 - Folder removed : test\123\A\\BBB\AAA
+2016-11-17 17:15:26,808 - root - INFO - directory_manager : 180 - remove myself test\123\A\BBB
+2016-11-17 17:15:26,823 - root - INFO - logger : 20 - Folder removed : test\123\A\BBB
+2016-11-17 17:18:47,405 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 17:20:00,381 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 17:22:37,588 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 17:22:56,898 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 17:22:56,898 - root - INFO - directory_manager : 30 - test
+2016-11-17 17:24:59,056 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 17:24:59,072 - root - INFO - directory_manager : 33 - test
+2016-11-17 17:25:12,794 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 17:25:12,794 - root - INFO - directory_manager : 33 - 
+2016-11-17 17:25:28,861 - root - INFO - logger : 20 - Folder created : test\AAA
+2016-11-17 17:25:36,881 - root - INFO - logger : 20 - Folder removed : test\AAA
+2016-11-17 17:26:24,982 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 17:26:25,002 - root - INFO - directory_manager : 34 - test\123
+2016-11-17 17:26:49,122 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB
+2016-11-17 17:27:01,155 - root - INFO - logger : 20 - Folder created : test\123\A\CCCC
+2016-11-17 17:27:09,156 - root - INFO - logger : 20 - Folder created : test\123\A\CCCC\DDD
+2016-11-17 17:27:13,211 - root - INFO - logger : 20 - File created / updated : srv test\123\A\CCCC\DDD\Nouveau document texte.txt file Nouveau document texte.txt
+2016-11-17 17:27:17,266 - root - INFO - logger : 20 - File created / updated : srv test\123\A\CCCC\DDD\vvvvv.txt file vvvvv.txt
+2016-11-17 17:27:17,267 - root - INFO - logger : 20 - File removed : %stest\123\A\CCCC\DDD\Nouveau document texte.txt
+2016-11-17 17:27:25,288 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\CCCC
+2016-11-17 17:27:25,335 - root - INFO - logger : 20 - Folder created : test\123\A\BBBB\CCCC\DDD
+2016-11-17 17:27:25,366 - root - INFO - logger : 20 - File created / updated : srv test\123\A\BBBB\CCCC\DDD\vvvvv.txt file vvvvv.txt
+2016-11-17 17:27:25,366 - root - INFO - logger : 20 - File removed : %stest\123\A\CCCC\DDD\vvvvv.txt
+2016-11-17 17:27:25,382 - root - INFO - logger : 20 - Folder removed : test\123\A\\CCCC\DDD
+2016-11-17 17:27:25,387 - root - INFO - logger : 20 - Folder removed : test\123\A\CCCC
+2016-11-17 17:27:37,420 - root - INFO - logger : 20 - File removed : %stest\123\A\\BBBB\CCCC\DDD\vvvvv.txt
+2016-11-17 17:27:37,420 - root - INFO - logger : 20 - Folder removed : test\123\A\\BBBB\CCCC\DDD
+2016-11-17 17:27:37,436 - root - INFO - logger : 20 - Folder removed : test\123\A\\BBBB\CCCC
+2016-11-17 17:27:37,436 - root - INFO - logger : 20 - Folder removed : test\123\A\BBBB
+2016-11-17 18:06:10,221 - root - INFO - logger : 20 - Valid parameters
+2016-11-17 18:06:10,255 - root - INFO - directory_manager : 34 - test\123

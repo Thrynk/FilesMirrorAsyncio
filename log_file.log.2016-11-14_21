@@ -1,0 +1,6 @@
+2016-11-14 21:06:55,896 - root - INFO - logger : 20 - Valid parameters
+2016-11-14 21:06:55,914 - root - INFO - logger : 20 - Folder created : test\A
+2016-11-14 21:06:55,919 - root - INFO - logger : 20 - Folder created : test\B
+2016-11-14 21:06:55,979 - root - INFO - logger : 20 - Folder created : test\A\3
+2016-11-14 21:06:55,986 - root - INFO - logger : 20 - Folder created : test\B\tttt
+2016-11-14 21:06:55,993 - root - INFO - logger : 20 - Folder created : test\B\tttt\pp
