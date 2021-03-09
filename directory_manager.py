@@ -5,6 +5,9 @@ from Directory import Directory
 from File import File
 from talk_to_ftp import TalkToFTP
 
+import asyncio
+
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 
 
@@ -26,14 +29,72 @@ class DirectoryManager:
         self.ftp = TalkToFTP(ftp_website)
         # create the directory on the FTP if not already existing
         self.ftp.connect()
+
+        self.listeOfDirectoryFiles = []
+
         if self.ftp.directory.count(os.path.sep) == 0:
             # want to create folder at the root of the server
             directory_split = ""
         else:
             directory_split = self.ftp.directory.rsplit(os.path.sep, 1)[0]
         if not self.ftp.if_exist(self.ftp.directory, self.ftp.get_folder_content(directory_split)):
-            self.ftp.create_folder(self.ftp.directory)
+            self.ftp.create_folder_not_async(self.ftp.directory)
         self.ftp.disconnect()
+
+    async def lancement_functions(self) : 
+        Liste = []
+        for _ in range(10) : 
+            Liste.append(self.test())
+        await asyncio.gather(*Liste)
+
+    async def test(self):
+        loop = asyncio.get_event_loop()
+        while len(self.listeOfDirectoryFiles) != 0 :
+            try : 
+                elem = self.listeOfDirectoryFiles.pop()
+            except :
+                break
+            
+            file_folder = elem[0]
+            function = elem[1]
+            paths = elem[2]
+
+            print(f"File_folder : {file_folder}, function : {function}, paths : {paths}")
+            
+            if file_folder == "folder" :
+                if function == "create_folder" :
+                    if not self.ftp.if_exist(paths[0], self.ftp.get_folder_content(paths[1])):
+                        # add this directory to the FTP server
+                        try : 
+                            await self.ftp.create_folder(paths[0])
+                        except :
+                            pass
+
+                elif function == "remove" and len(paths) > 1 :
+                    try : 
+                        await self.remove_all_in_directory(paths[0], paths[1], paths[2])
+                    except : 
+                        pass
+
+                elif function == "remove" and len(paths) == 1 :
+                    try : 
+                        await self.ftp.remove_folder(paths[0])
+                    except :
+                        pass
+            
+            if file_folder == "file" : 
+                if function == 'remove' : 
+                    try : 
+                        await self.ftp.remove_file(paths[0])
+                    except : 
+                        pass
+
+                elif function == "file_transfer" : 
+                    try : 
+                        await self.ftp.file_transfer(paths[0], paths[1], paths[2])
+                    except : 
+                        pass
+        
 
     def synchronize_directory(self, frequency):
         while True:
@@ -43,12 +104,22 @@ class DirectoryManager:
             # init to an empty list for each synchronization
             self.to_remove_from_dict = []
 
+            # List of files which need changes
+            # folder/file, create_folder, path
+            self.listeOfDirectoryFiles = []
+            self.lock = asyncio.Lock()
+
             # search for an eventual updates of files in the root directory
             self.ftp.connect()
             self.search_updates(self.root_directory)
 
             # look for any removals of files / directories
             self.any_removals()
+            # loop = asyncio.get_event_loop()
+            # loop.run_until_complete(self.lancement_functions())
+            # loop.close()
+            asyncio.run(self.lancement_functions())
+
             self.ftp.disconnect()
 
             # wait before next synchronization
@@ -57,18 +128,14 @@ class DirectoryManager:
     def search_updates(self, directory):
         # scan recursively all files & directories in the root directory
         for path_file, dirs, files in os.walk(directory):
-
             for dir_name in dirs:
                 folder_path = os.path.join(path_file, dir_name)
-
                 # get depth of the current directory by the count of the os separator in a path
-                # and compare it with the count of the root directory
+                # and compare it with the count of the root directory        
                 if self.is_superior_max_depth(folder_path) is False:
                     self.paths_explored.append(folder_path)
-
                     # a folder can't be updated, the only data we get is his creation time
                     # a folder get created during running time if not present in our list
-
                     if folder_path not in self.synchronize_dict.keys():
                         # directory created
                         # add it to dictionary
@@ -78,13 +145,17 @@ class DirectoryManager:
                         split_path = folder_path.split(self.root_directory)
                         srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
                         directory_split = srv_full_path.rsplit(os.path.sep,1)[0]
-                        if not self.ftp.if_exist(srv_full_path, self.ftp.get_folder_content(directory_split)):
+                        # print("directory_split : ", directory_split)
+                        # print("srv_ful_path : ", srv_full_path)
+                        # print("get folder : ", self.ftp.get_folder_content(directory_split))
+                        self.listeOfDirectoryFiles.insert(0, ["folder", "create_folder", [srv_full_path, directory_split]])
+                        # if not self.ftp.if_exist(srv_full_path, self.ftp.get_folder_content(directory_split)):
                             # add this directory to the FTP server
-                            self.ftp.create_folder(srv_full_path)
+                            # self.ftp.create_folder(srv_full_path)
+
 
             for file_name in files:
                 file_path = os.path.join(path_file, file_name)
-
                 # get depth of the current file by the count of the os separator in a path
                 # and compare it with the count of the root directory
                 if self.is_superior_max_depth(file_path) is False and \
@@ -99,18 +170,20 @@ class DirectoryManager:
                             # file get updates
                             split_path = file_path.split(self.root_directory)
                             srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
-                            self.ftp.remove_file(srv_full_path)
+                            # self.ftp.remove_file(srv_full_path)
+                            self.listeOfDirectoryFiles.append(["file", "remove", [srv_full_path]])
                             # update this file on the FTP server
-                            self.ftp.file_transfer(path_file, srv_full_path, file_name)
+                            # self.ftp.file_transfer(path_file, srv_full_path, file_name)
+                            self.listeOfDirectoryFiles.append(["file", "file_transfer", [path_file, srv_full_path, file_name]])
 
                     else:
-
                         # file get created
                         self.synchronize_dict[file_path] = File(file_path)
                         split_path = file_path.split(self.root_directory)
                         srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
                         # add this file on the FTP server
-                        self.ftp.file_transfer(path_file, srv_full_path, file_name)
+                        # self.ftp.file_transfer(path_file, srv_full_path, file_name)
+                        self.listeOfDirectoryFiles.append(["file", "file_transfer", [path_file, srv_full_path, file_name]])
 
     def any_removals(self):
         # if the length of the files & folders to synchronize == number of path explored
@@ -130,7 +203,9 @@ class DirectoryManager:
                 if isinstance(self.synchronize_dict[removed_path], File):
                     split_path = removed_path.split(self.root_directory)
                     srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
-                    self.ftp.remove_file(srv_full_path)
+                    # self.ftp.remove_file(srv_full_path)
+                    self.listeOfDirectoryFiles.append(["file", "remove", [srv_full_path]])
+
                     self.to_remove_from_dict.append(removed_path)
 
                 elif isinstance(self.synchronize_dict[removed_path], Directory):
@@ -138,7 +213,8 @@ class DirectoryManager:
                     srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
                     self.to_remove_from_dict.append(removed_path)
                     # if it's a directory, we need to delete all the files and directories he contains
-                    self.remove_all_in_directory(removed_path, srv_full_path, path_removed_list)
+                    # self.remove_all_in_directory(removed_path, srv_full_path, path_removed_list)
+                    self.listeOfDirectoryFiles.insert(0, ["folder", "remove", [removed_path, srv_full_path, path_removed_list]])
 
         # all the files / folders deleted in the local directory need to be deleted
         # from the dictionary use to synchronize
@@ -170,14 +246,17 @@ class DirectoryManager:
             for to_delete in sorted_containers[i]:
                 to_delete_ftp = "{0}{1}{2}".format(self.ftp.directory, os.path.sep, to_delete.split(self.root_directory)[1])
                 if isinstance(self.synchronize_dict[to_delete], File):
-                    self.ftp.remove_file(to_delete_ftp)
+                    # self.ftp.remove_file(to_delete_ftp)
+                    self.listeOfDirectoryFiles.append(["file", "remove", [to_delete_ftp]])
                     self.to_remove_from_dict.append(to_delete)
                 else:
                     # if it's again a directory, we delete all his containers also
-                    self.remove_all_in_directory(to_delete, to_delete_ftp, path_removed_list)
+                    # self.remove_all_in_directory(to_delete, to_delete_ftp, path_removed_list)
+                    self.listeOfDirectoryFiles.insert(0, ["folder", "remove", [to_delete, to_delete_ftp, path_removed_list]])
         # once all the containers of the directory got removed
         # we can delete the directory also
-        self.ftp.remove_folder(srv_full_path)
+        # self.ftp.remove_folder(srv_full_path)
+        self.listeOfDirectoryFiles.insert(0, ["folder", "remove", [srv_full_path]])
         self.to_remove_from_dict.append(removed_directory)
 
     # subtract current number of os separator to the number of os separator for the root directory
