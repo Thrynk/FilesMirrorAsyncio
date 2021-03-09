@@ -1,0 +1,25 @@
+2021-02-11 12:34:58,371 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:35:30,072 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:40:40,558 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:40:44,698 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:40:54,280 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:41:51,476 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:41:51,492 - root - INFO - logger : 20 - Folder created : thomas
+2021-02-11 12:41:51,505 - root - INFO - logger : 20 - Folder created : thomas\test
+2021-02-11 12:41:51,513 - root - INFO - logger : 20 - Folder created : thomas\thomas
+2021-02-11 12:41:51,522 - root - INFO - logger : 20 - File created / updated : srv thomas\test.txt file test.txt
+2021-02-11 12:41:51,527 - root - INFO - logger : 20 - Folder created : thomas\thomas\test
+2021-02-11 12:41:51,539 - root - INFO - logger : 20 - Folder created : thomas\thomas\thomas
+2021-02-11 12:41:51,545 - root - INFO - logger : 20 - File created / updated : srv thomas\thomas\test.txt file test.txt
+2021-02-11 12:41:51,557 - root - INFO - logger : 20 - Folder created : thomas\thomas\thomas\test
+2021-02-11 12:41:51,570 - root - INFO - logger : 20 - Folder created : thomas\thomas\thomas\thomas
+2021-02-11 12:41:51,576 - root - INFO - logger : 20 - File created / updated : srv thomas\thomas\thomas\test.txt file test.txt
+2021-02-11 12:41:51,593 - root - INFO - logger : 20 - Folder created : thomas\thomas\thomas\thomas\test
+2021-02-11 12:41:51,605 - root - INFO - logger : 20 - Folder created : thomas\thomas\thomas\thomas\thomas
+2021-02-11 12:41:51,611 - root - INFO - logger : 20 - File created / updated : srv thomas\thomas\thomas\thomas\test.txt file test.txt
+2021-02-11 12:43:42,591 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:44:14,119 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:44:14,144 - root - INFO - logger : 20 - File created / updated : srv thomas\test.txt file test.txt
+2021-02-11 12:44:32,562 - root - INFO - logger : 20 - Valid parameters
+2021-02-11 12:44:32,577 - root - INFO - logger : 20 - Folder created : thomas
+2021-02-11 12:44:32,584 - root - INFO - logger : 20 - File created / updated : srv thomas\test.txt file test.txt

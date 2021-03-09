@@ -6,10 +6,11 @@ from File import File
 from talk_to_ftp import TalkToFTP
 
 import asyncio
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+from threading import Lock
+from logger import Logger
 
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
-
+logging.basicConfig(level=logging.INFO, format='%(threadName)s %(asctime)s %(levelname)s %(message)s')
 
 class DirectoryManager:
     def __init__(self, ftp_website, directory, depth, excluded_extensions):
@@ -38,65 +39,84 @@ class DirectoryManager:
         else:
             directory_split = self.ftp.directory.rsplit(os.path.sep, 1)[0]
         if not self.ftp.if_exist(self.ftp.directory, self.ftp.get_folder_content(directory_split)):
-            self.ftp.create_folder_not_async(self.ftp.directory)
+            self.ftp.create_folder(self.ftp.directory)
         self.ftp.disconnect()
 
-    async def lancement_functions(self) : 
-        Liste = []
-        for _ in range(10) : 
-            Liste.append(self.test())
-        await asyncio.gather(*Liste)
+    def test(self, listeOfDirectoryFiles, lock, n):
+        #loop = asyncio.get_event_loop()
+        while listeOfDirectoryFiles:
+            with lock:            
+                try :
+                    elem = listeOfDirectoryFiles.pop(0)
+                except :
+                    break
+                    #pass
+                
+            self.ftp.connect()
 
-    async def test(self):
-        loop = asyncio.get_event_loop()
-        while len(self.listeOfDirectoryFiles) != 0 :
-            try : 
-                elem = self.listeOfDirectoryFiles.pop()
-            except :
-                break
-            
             file_folder = elem[0]
             function = elem[1]
             paths = elem[2]
 
-            print(f"File_folder : {file_folder}, function : {function}, paths : {paths}")
+            #print(f"File_folder : {file_folder}, function : {function}, paths : {paths}")
             
             if file_folder == "folder" :
                 if function == "create_folder" :
                     if not self.ftp.if_exist(paths[0], self.ftp.get_folder_content(paths[1])):
                         # add this directory to the FTP server
                         try : 
-                            await self.ftp.create_folder(paths[0])
+                            self.ftp.create_folder(paths[0])
                         except :
-                            pass
+                            Logger.log_error("cannot create folder" + str(paths))
 
                 elif function == "remove" and len(paths) > 1 :
                     try : 
-                        await self.remove_all_in_directory(paths[0], paths[1], paths[2])
+                        self.remove_all_in_directory(paths[0], paths[1], paths[2])
                     except : 
-                        pass
+                        Logger.log_error("cannot remove folder" + str(paths))
 
                 elif function == "remove" and len(paths) == 1 :
                     try : 
-                        await self.ftp.remove_folder(paths[0])
+                        self.ftp.remove_folder(paths[0])
                     except :
-                        pass
+                        Logger.log_error("cannot remove folder" + str(paths))
             
             if file_folder == "file" : 
                 if function == 'remove' : 
                     try : 
-                        await self.ftp.remove_file(paths[0])
+                        self.ftp.remove_file(paths[0])
                     except : 
-                        pass
+                        Logger.log_error("cannot remove file" + str(paths))
+
 
                 elif function == "file_transfer" : 
-                    try : 
-                        await self.ftp.file_transfer(paths[0], paths[1], paths[2])
+                    try :
+                        self.ftp.file_transfer(paths[0], paths[1], paths[2])
                     except : 
-                        pass
+                        Logger.log_error("cannot create file" + paths)
+            self.ftp.disconnect()
+        return
         
+    async def lancement_functions(self, executor):
+        lock = Lock()
+        loop = asyncio.get_event_loop()
+        print(self.listeOfDirectoryFiles)
+        blocking_tasks = [
+            loop.run_in_executor(executor, self.test, self.listeOfDirectoryFiles, lock, i)
+            for i in range(5)
+        ]
+        await asyncio.wait(blocking_tasks)
+            
+
+    def blocks(self, n):
+        log = logging.getLogger('blocks({})'.format(n))
+        log.info('running')
+        time.sleep(n)
+        log.info('done')
+        return n ** 2
 
     def synchronize_directory(self, frequency):
+        
         while True:
             # init the path explored to an empty list before each synchronization
             self.paths_explored = []
@@ -107,10 +127,10 @@ class DirectoryManager:
             # List of files which need changes
             # folder/file, create_folder, path
             self.listeOfDirectoryFiles = []
-            self.lock = asyncio.Lock()
+            #self.lock = asyncio.Lock()
 
             # search for an eventual updates of files in the root directory
-            self.ftp.connect()
+            #self.ftp.connect()
             self.search_updates(self.root_directory)
 
             # look for any removals of files / directories
@@ -118,9 +138,16 @@ class DirectoryManager:
             # loop = asyncio.get_event_loop()
             # loop.run_until_complete(self.lancement_functions())
             # loop.close()
-            asyncio.run(self.lancement_functions())
+            executor = ThreadPoolExecutor(
+                max_workers=10,
+            )
+            #event_loop = asyncio.get_event_loop()
+            
+            asyncio.run(
+                self.lancement_functions(executor)
+            )
 
-            self.ftp.disconnect()
+            #self.ftp.disconnect()
 
             # wait before next synchronization
             time.sleep(frequency)

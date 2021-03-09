@@ -30,9 +30,12 @@ class TalkToFTP:
         Logger.log_info("Folder removed : " + folder)
 
     def file_transfer(self, path, srv_path, file_name):
+        Logger.log_info("transfer " + file_name)
         file = open(os.path.join(path, file_name), 'rb')
+        Logger.log_info("file opened " + file_name)
         self.ftp.storbinary('STOR ' + srv_path, file)
         file.close()
+        Logger.log_info("\tend transfer " + file_name)
         Logger.log_info("File created / updated : srv {0} file {1}".format(srv_path, file_name ))
 
     def remove_file(self, file):
