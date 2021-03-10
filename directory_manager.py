@@ -13,7 +13,7 @@ from logger import Logger
 logging.basicConfig(level=logging.INFO, format='%(threadName)s %(asctime)s %(levelname)s %(message)s')
 
 class DirectoryManager:
-    def __init__(self, ftp_website, directory, depth, excluded_extensions):
+    def __init__(self, ftp_website, directory, depth, excluded_extensions, nb_multi):
         self.root_directory = directory
         self.depth = depth
         # list of the extensions to exclude during synchronization
@@ -26,6 +26,8 @@ class DirectoryManager:
         # list of the File / Directory to removed from the dictionary at the end
         # of the synchronization
         self.to_remove_from_dict = []
+
+        self.nb_multi = nb_multi
 
         self.ftp_website=ftp_website
 
@@ -98,7 +100,6 @@ class DirectoryManager:
                     except : 
                         Logger.log_error("cannot remove file" + str(paths))
 
-
                 elif function == "file_transfer" : 
                     try :
                         ftp.file_transfer(paths[0], paths[1], paths[2])
@@ -125,7 +126,7 @@ class DirectoryManager:
        
         blocking_tasks = [
             loop.run_in_executor(executor, self.task, list_global, lock)
-            for i in range(5)
+            for i in range(self.nb_multi)
         ]
         await asyncio.wait(blocking_tasks)
             
