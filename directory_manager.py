@@ -26,6 +26,9 @@ class DirectoryManager:
         # list of the File / Directory to removed from the dictionary at the end
         # of the synchronization
         self.to_remove_from_dict = []
+
+        self.ftp_website=ftp_website
+
         # FTP instance
         self.ftp = TalkToFTP(ftp_website)
         # create the directory on the FTP if not already existing
@@ -44,30 +47,37 @@ class DirectoryManager:
 
     def test(self, listeOfDirectoryFiles, lock, n):
         #loop = asyncio.get_event_loop()
-        while listeOfDirectoryFiles:
-            with lock:            
+        while len(listeOfDirectoryFiles) != 0 :
+            with lock:   
                 try :
                     elem = listeOfDirectoryFiles.pop(0)
                 except :
                     break
                     #pass
                 
-            self.ftp.connect()
+            ftp = TalkToFTP(self.ftp_website)
+            ftp.connect()
 
             file_folder = elem[0]
             function = elem[1]
             paths = elem[2]
 
-            #print(f"File_folder : {file_folder}, function : {function}, paths : {paths}")
+            # print(f"File_folder : {file_folder}, function : {function}, paths : {paths}")
             
             if file_folder == "folder" :
                 if function == "create_folder" :
-                    if not self.ftp.if_exist(paths[0], self.ftp.get_folder_content(paths[1])):
+                    list_paths = ftp.get_folder_content(paths[1])
+
+                    if not ftp.if_exist(paths[0], list_paths):
                         # add this directory to the FTP server
                         try : 
-                            self.ftp.create_folder(paths[0])
+                            ftp.create_folder(paths[0])
                         except :
                             Logger.log_error("cannot create folder" + str(paths))
+                    
+                    else : 
+                        self.listeOfDirectoryFiles.insert(0, ["folder", "create_folder", [paths[0], paths[1]]])
+
 
                 elif function == "remove" and len(paths) > 1 :
                     try : 
@@ -77,32 +87,48 @@ class DirectoryManager:
 
                 elif function == "remove" and len(paths) == 1 :
                     try : 
-                        self.ftp.remove_folder(paths[0])
+                        ftp.remove_folder(paths[0])
                     except :
                         Logger.log_error("cannot remove folder" + str(paths))
+
+                else : 
+                    print("problem")
             
             if file_folder == "file" : 
                 if function == 'remove' : 
                     try : 
-                        self.ftp.remove_file(paths[0])
+                        ftp.remove_file(paths[0])
                     except : 
                         Logger.log_error("cannot remove file" + str(paths))
 
 
                 elif function == "file_transfer" : 
                     try :
-                        self.ftp.file_transfer(paths[0], paths[1], paths[2])
+                        ftp.file_transfer(paths[0], paths[1], paths[2])
                     except : 
                         Logger.log_error("cannot create file" + paths)
-            self.ftp.disconnect()
+            ftp.disconnect()
         return
+        
         
     async def lancement_functions(self, executor):
         lock = Lock()
         loop = asyncio.get_event_loop()
-        print(self.listeOfDirectoryFiles)
+        index_for_reverse = 0
+        
+        for index, elem in enumerate(self.listeOfDirectoryFiles) :
+            if elem[0] != "folder" : 
+                index_for_reverse = index
+                break
+        
+        list_files = self.listeOfDirectoryFiles[index_for_reverse:]
+        list_folders = self.listeOfDirectoryFiles[:index_for_reverse]
+        list_folders.reverse()
+
+        list_global = list_folders + list_files
+       
         blocking_tasks = [
-            loop.run_in_executor(executor, self.test, self.listeOfDirectoryFiles, lock, i)
+            loop.run_in_executor(executor, self.test, list_global, lock, i)
             for i in range(5)
         ]
         await asyncio.wait(blocking_tasks)
