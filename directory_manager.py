@@ -6,7 +6,7 @@ from File import File
 from talk_to_ftp import TalkToFTP
 
 import asyncio
-from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 from logger import Logger
 
@@ -35,6 +35,7 @@ class DirectoryManager:
         self.ftp.connect()
 
         self.listeOfDirectoryFiles = []
+        self.executor = ThreadPoolExecutor(max_workers=10)
 
         if self.ftp.directory.count(os.path.sep) == 0:
             # want to create folder at the root of the server
@@ -45,15 +46,13 @@ class DirectoryManager:
             self.ftp.create_folder(self.ftp.directory)
         self.ftp.disconnect()
 
-    def test(self, listeOfDirectoryFiles, lock, n):
-        #loop = asyncio.get_event_loop()
+    def task(self, listeOfDirectoryFiles, lock):
         while len(listeOfDirectoryFiles) != 0 :
             with lock:   
                 try :
                     elem = listeOfDirectoryFiles.pop(0)
                 except :
                     break
-                    #pass
                 
             ftp = TalkToFTP(self.ftp_website)
             ftp.connect()
@@ -61,9 +60,7 @@ class DirectoryManager:
             file_folder = elem[0]
             function = elem[1]
             paths = elem[2]
-
-            # print(f"File_folder : {file_folder}, function : {function}, paths : {paths}")
-            
+          
             if file_folder == "folder" :
                 if function == "create_folder" :
                     list_paths = ftp.get_folder_content(paths[1])
@@ -110,7 +107,6 @@ class DirectoryManager:
             ftp.disconnect()
         return
         
-        
     async def lancement_functions(self, executor):
         lock = Lock()
         loop = asyncio.get_event_loop()
@@ -120,7 +116,7 @@ class DirectoryManager:
             if elem[0] != "folder" : 
                 index_for_reverse = index
                 break
-        
+
         list_files = self.listeOfDirectoryFiles[index_for_reverse:]
         list_folders = self.listeOfDirectoryFiles[:index_for_reverse]
         list_folders.reverse()
@@ -128,21 +124,13 @@ class DirectoryManager:
         list_global = list_folders + list_files
        
         blocking_tasks = [
-            loop.run_in_executor(executor, self.test, list_global, lock, i)
+            loop.run_in_executor(executor, self.task, list_global, lock)
             for i in range(5)
         ]
         await asyncio.wait(blocking_tasks)
             
 
-    def blocks(self, n):
-        log = logging.getLogger('blocks({})'.format(n))
-        log.info('running')
-        time.sleep(n)
-        log.info('done')
-        return n ** 2
-
     def synchronize_directory(self, frequency):
-        
         while True:
             # init the path explored to an empty list before each synchronization
             self.paths_explored = []
@@ -153,27 +141,16 @@ class DirectoryManager:
             # List of files which need changes
             # folder/file, create_folder, path
             self.listeOfDirectoryFiles = []
-            #self.lock = asyncio.Lock()
 
             # search for an eventual updates of files in the root directory
-            #self.ftp.connect()
             self.search_updates(self.root_directory)
 
             # look for any removals of files / directories
             self.any_removals()
-            # loop = asyncio.get_event_loop()
-            # loop.run_until_complete(self.lancement_functions())
-            # loop.close()
-            executor = ThreadPoolExecutor(
-                max_workers=10,
-            )
-            #event_loop = asyncio.get_event_loop()
             
             asyncio.run(
-                self.lancement_functions(executor)
+                self.lancement_functions(self.executor)
             )
-
-            #self.ftp.disconnect()
 
             # wait before next synchronization
             time.sleep(frequency)
@@ -198,13 +175,7 @@ class DirectoryManager:
                         split_path = folder_path.split(self.root_directory)
                         srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
                         directory_split = srv_full_path.rsplit(os.path.sep,1)[0]
-                        # print("directory_split : ", directory_split)
-                        # print("srv_ful_path : ", srv_full_path)
-                        # print("get folder : ", self.ftp.get_folder_content(directory_split))
                         self.listeOfDirectoryFiles.insert(0, ["folder", "create_folder", [srv_full_path, directory_split]])
-                        # if not self.ftp.if_exist(srv_full_path, self.ftp.get_folder_content(directory_split)):
-                            # add this directory to the FTP server
-                            # self.ftp.create_folder(srv_full_path)
 
 
             for file_name in files:
@@ -223,10 +194,8 @@ class DirectoryManager:
                             # file get updates
                             split_path = file_path.split(self.root_directory)
                             srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
-                            # self.ftp.remove_file(srv_full_path)
                             self.listeOfDirectoryFiles.append(["file", "remove", [srv_full_path]])
                             # update this file on the FTP server
-                            # self.ftp.file_transfer(path_file, srv_full_path, file_name)
                             self.listeOfDirectoryFiles.append(["file", "file_transfer", [path_file, srv_full_path, file_name]])
 
                     else:
@@ -235,7 +204,6 @@ class DirectoryManager:
                         split_path = file_path.split(self.root_directory)
                         srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
                         # add this file on the FTP server
-                        # self.ftp.file_transfer(path_file, srv_full_path, file_name)
                         self.listeOfDirectoryFiles.append(["file", "file_transfer", [path_file, srv_full_path, file_name]])
 
     def any_removals(self):
@@ -256,7 +224,6 @@ class DirectoryManager:
                 if isinstance(self.synchronize_dict[removed_path], File):
                     split_path = removed_path.split(self.root_directory)
                     srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
-                    # self.ftp.remove_file(srv_full_path)
                     self.listeOfDirectoryFiles.append(["file", "remove", [srv_full_path]])
 
                     self.to_remove_from_dict.append(removed_path)
@@ -266,7 +233,6 @@ class DirectoryManager:
                     srv_full_path = '{}{}'.format(self.ftp.directory, split_path[1])
                     self.to_remove_from_dict.append(removed_path)
                     # if it's a directory, we need to delete all the files and directories he contains
-                    # self.remove_all_in_directory(removed_path, srv_full_path, path_removed_list)
                     self.listeOfDirectoryFiles.insert(0, ["folder", "remove", [removed_path, srv_full_path, path_removed_list]])
 
         # all the files / folders deleted in the local directory need to be deleted
@@ -299,16 +265,13 @@ class DirectoryManager:
             for to_delete in sorted_containers[i]:
                 to_delete_ftp = "{0}{1}{2}".format(self.ftp.directory, os.path.sep, to_delete.split(self.root_directory)[1])
                 if isinstance(self.synchronize_dict[to_delete], File):
-                    # self.ftp.remove_file(to_delete_ftp)
                     self.listeOfDirectoryFiles.append(["file", "remove", [to_delete_ftp]])
                     self.to_remove_from_dict.append(to_delete)
                 else:
                     # if it's again a directory, we delete all his containers also
-                    # self.remove_all_in_directory(to_delete, to_delete_ftp, path_removed_list)
                     self.listeOfDirectoryFiles.insert(0, ["folder", "remove", [to_delete, to_delete_ftp, path_removed_list]])
         # once all the containers of the directory got removed
         # we can delete the directory also
-        # self.ftp.remove_folder(srv_full_path)
         self.listeOfDirectoryFiles.insert(0, ["folder", "remove", [srv_full_path]])
         self.to_remove_from_dict.append(removed_directory)
 
